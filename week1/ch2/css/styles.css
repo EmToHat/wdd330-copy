@@ -1,0 +1,10 @@
+body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(215, 55%, 23%);
+}
+
+h1 {
+    background-color: hsl(210, 37%, 63%);
+    padding: 1em;
+}
