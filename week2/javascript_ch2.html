@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 2</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <h1>Programming Basics</h1>
+    <section>
+        <h3>Comments</h3>
+        <p>Comments are extremely important: well-commented code makes it easier for anybody reading your code to understand what is happening in the code.</p>
+        <p>Two types of comments: single line and multi-line comments.</p>
+        <p class="code-block">
+            // this is a single line comment
+        </p>
+        <p class="code-block">
+            /* this is a multi-line comment <br>
+            anything in this space will be ignored <br>
+            Multi-line comments are great for notes */
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>JS Grammar</h3>
+        <p>JS syntax is similar to C programming language.</p>
+        <p>Two statements, one on each line.</p>
+        <p class="code-block">
+            <em>const</em> message = 'Hello World!';
+            <br>
+            alert(message);
+        </p>
+        <p>Blocks don't need to be ended with a semicolon.</p>
+        <p class="code-block">
+            {
+            <br>
+            <em>const</em> message = 'Hello World!';
+            <br>
+            alert(message);
+            <br>
+            }
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Reserved Words</h3>
+        <p>These are words that are reserved for JS language and can't be used as a variable.</p>
+        <p class="code-block">abstract, await, boolean, break, byte, case, catch, char, class, const, continue, debugger, default, delete, do, double, else, enum, export, extends, false, final, finally, float, for, function, goto, if, implements, import, in instanceof, int, interface, let, long, native, new, null, package, private, protected, public, return, short, static, super, switch, synchronized, this, throw, throws, transient, true, try, typeof, var, volatile, void, while, with, yield</p>
+        <p>Important but not reserved.</p>
+        <p class="code-block"><em>undefined</em>, NaN, Infinity</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Primitive Data Types</h3>
+        <p>JS has 7 different data types, 6 of them are <em>primitive</em> data types</p>
+        <p>String, Symbol, Number, Boolean, Undefined, and Null.</p>
+        <p><b>Object</b> isn't a primitive data type.</p>
+        <p><b>typeof</b> special js operator for finding out the type of value.</p>
+        <p>
+            <b>Unary</b> operator only requires one operand.
+            <br>
+            <b>Binary</b> operator two operands.
+        </p>
+        <p class="code-block">
+            // Operator is typeof, the string 'hello' is the operand.
+            <br>
+            <em>typeof</em> 'hello'
+            <br><br>
+            // Operator is + and the numbers 3 and 5 are the operands.
+            <br>
+            3 + 5
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Variables</h3>
+        <p>Variables are used in programming 2 refer 2 a value stored in memory.</p>
+        <p>Declare: use the keywords const and let</p>
+        <p>const: used when the variable won't be assigned to another value.</p>
+        <p>let: used when the variable will be assigned to another value.</p>
+        <p>Use the = operator to assign to const or let.</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Naming Constants & Variables</h3>
+        <p>When naming constants and variables, you should try to give them sensible names that describe what the variable represents; hence, answer is a better variable name than x.</p>
+        <p>Constant and variable names can start with any upper or lower-case letter, an underscore, _, or dollar character, $. They can also contain numbers, but cannot start with them.</p>
+        <p class="code-block">
+            // camel case
+            <br>
+            firstNameAndLastName
+        </p>
+        <p class="code-block">
+            // underscore
+            <br>
+            first_name_and_last_name
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Strings</h3>
+        <p>A string is a collection of characters, such as letters and symbols. We can create a string literal by writing a group of characters inside quote marks.</p>
+        <p class="code-block">
+            //this will cause an error
+            <br>
+            'it's me'
+            <br>
+            //this will work
+            <br>
+            "it's me"
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>String Properties & Methdods</h3>
+        <p>Primitive data types and objects have properties and methods. Properties are information about the object or value, while methods perform an action on the object or value ― either to change it or to tell us something about it.</p>
+        <p class="code-block">
+            5 is written as   00000000000000000000000000000101
+            <br>
+            100 is written as 00000000000000000000000001100100
+            <br>
+            15 is written as  00000000000000000000000000001111
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Template Literals</h3>
+        <p>Template literals are a special types of string that were introduced in ES6. Template literals use the backtick character, `</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Symbols</h3>
+        <p>Symbols were introduced as a new primitive value in ES6. They can be used to create unique values, which helps to avoid any naming collisions.</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Numbers</h3>
+        <p>Numbers can be integers (whole numbers, such as 3) or floating point numbers (often referred to as just 'decimals' or 'floats', such as 3.14159).</p>
+        <p class="code-block">
+            Number.isInteger(42);
+            <br>
+            <<< true
+            <br><br>
+            Number.isInteger(3.142);
+            <br>
+            << false    
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Changing The Value of Variables</h3>
+        <p>If a variable has been assigned a numerical value, it can be increased using the following operation:</p>
+        <p class="code-block">
+            <em>let</em> points = 0;
+            <br>
+            << 0
+            <br><br>
+            points = points + 10;
+            <br>
+            << 10
+        </p>
+        <p class="code-block">
+            points += 10;
+            <br>
+            << 20
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Type Coercion</h3>
+        <p>Type coercion happens when the operands of an operator are of different types. Such as a string and a number.</p>
+        <p class="code-block">
+            '2' * 8;
+            <br>
+            << 16
+        </p>
+        <p class="code-block">
+            '2' + 8;
+            <br>
+            << '28'
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Converting Strings</h3>
+        <p>We can convert numbers to strings and vice versa using a variety of methods.</p>
+        <p>To change a string to a number, use the Number method.</p>
+        <p class="code-block">
+            Number('23');
+            <br>
+            << 23
+        </p>
+        <p class="code-block">
+            const answer = '5' * 1;
+            <br>
+            << 5
+            <br><br>
+            typeof answer;
+            <br>
+            << "number"
+        </p>
+
+        <p class="code-block">
+            const answer = +'5';
+            <br>
+            << 5
+            <br><br>
+            typeof answer;
+            <br>
+            << 'number'
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Converting Numbers</h3>
+        <p>We can convert numbers to strings and vice versa using a variety of methods.</p>
+        <p>To change a number to a string, use the String method.</p>
+        <p class="code-block">
+            String(3);
+            <br>
+            << '3'
+        </p>
+        <p class="code-block">
+            10..toString();
+            <br>
+            <<'10'
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Undefined</h3>
+        <p>Undefined is the value given to variables that have not been assigned a value.</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Null</h3>
+        <p>Null means 'no value'. It can be thought of as a placeholder that JavaScript uses to say "there should be a value here, but there isn’t at the moment."</p>
+        <p class="code-block">
+            10 + <em>null</em>; //null behaves like zero
+            <br>
+            << 10
+            <br><br>
+            10 + <em>undefined</em>; //undefined is not a number
+            <br>
+            << NaN
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Booleans</h3>
+        <p>There are only two Boolean values: true and false. They are named after George Boole, an English mathematician who worked in the field of algebraic logic. Boolean values are fundamental in the logical statements that make up a computer program. Every value in JavaScript has a Boolean value and most of them are true (these are known as truthy values).</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Logical Operators</h3>
+        <p>A logical operator can be used with any primitive value or object. The results are based on whether the values are considered to be truthy or falsy.</p>
+        <p>Placing the ! operator in front of a value will convert it to a Boolean and return the opposite value. So truthy values will return false, and falsy values will return true. This is known as negation:</p>
+        <p class="code-block">
+            !true; //negating true returns false
+            <br>
+            << false
+            <br><br>
+            !0; //0 is falsy, so negating it returns true
+            <br>
+            << true
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Bitwise Operators</h3>
+        <p>Bitwise operators work with operands that are 32-bit integers. These are numbers written in binary (base two) that have 32 digits made up of just 0 s and 1 s. </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Comparison</h3>
+        <p>
+            soft equality ==
+            <br>
+            when a soft inequality is used, JavaScript doesn't take into account the data type and will attempt to coerce the two values to the same type when doing the comparison.
+        </p>
+        <p>
+            hard equality ===
+            <br>
+            tests for equality but only returns true if and only if they are of the same data type
+        </p>
+        <p class="code-block">
+            answer === 5;
+            <br>
+            << true
+            <br><br>
+            answer === '5';
+            <br>
+            << false
+            <br><br>
+            <em>null</em> === <em>undefined</em>;
+            <br>
+            << false
+        </p>
+    </section>
+</body>
+</html>
