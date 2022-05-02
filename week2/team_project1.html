@@ -41,7 +41,34 @@
         let multiplyNumber = (number1, number2) => number1 * number2;
 
     </script>
-    <style></style>
+    <style>
+        .calc_back_box {
+            background-color: gray;
+            width: 400px;
+            height: 600px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .calc_input_box {
+            background-color: white;
+            padding: 10px;
+            height: 50px;
+        }
+
+        .calc_numbers {
+            display: grid;
+
+            gap: 9px;
+        }    
+        .calc_number_btn {
+            height: 50px;
+            width: 50px;
+            background-color: blue;
+            padding: 8px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
     <h1>Team Activity</h1>
@@ -51,10 +78,26 @@
     <button type="button" id="btn" onclick="addNumbers()">Add</button>
     <button type="button" id="btn2" onclick="coreThree()">+</button>
     <button type="button" id="btn3" onclick="multiply()">*</button>
+    
     <div id="coreTwo"></div>
     <div id="coreThree"></div>
     <div id="stretchThree"></div>
 
-    
+    <div class="calc_back_box">
+        <div class="calc_input_box">8</div>
+        <div class="calc_numbers">
+            <div class="calc_number_btn btn_zero">0</div>
+            <div class="calc_number_btn btn_one">1</div>
+            <div class="calc_number_btn btn_two">2</div>
+            <div class="calc_number_btn btn_three">3</div>
+            <div class="calc_number_btn btn_four">4</div>
+            <div class="calc_number_btn btn_five">5</div>
+            <div class="calc_number_btn btn_six">6</div>
+            <div class="calc_number_btn btn_seven">7</div>
+            <div class="calc_number_btn btn_eight">8</div>
+            <div class="calc_number_btn btn_nine">9</div>
+        </div>
+
+    </div>
 </body>
 </html>

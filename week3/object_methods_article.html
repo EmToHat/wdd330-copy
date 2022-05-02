@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article 01</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <h1>Object Methods Article</h1>
+    <section>
+        <h3>Object Methods, "this"</h3>
+        <p>Objects are usually created to represent entities of the real world, like users, orders and so on.</p>
+        <p class="code-block">
+            let user = {
+                <br>
+                name: "John",
+                <br>
+                age: 30
+                <br>
+            };
+        </p>
+        <p>In the real world, a user can act: select something from the shopping cart, login, logout etc.</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Method Examples</h3>
+        <p>Teach the <em>user</em> to say hello</p>
+        <p class="code-block">
+            let user = {
+                <br>
+                name: "John",
+                <br>
+                age: 30
+                <br>
+            };
+            <br>
+            // function expression
+            <br>
+            user.sayHi = function() {
+                <br>
+                alert("Hello!")
+                <br>
+            };
+            <br>
+            user.sayHi(); // Output = Hello!
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>"this" in methods</h3>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>"this" is not bound</h3>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Arrow functions have no "this"</h3>
+    </section>
+</body>
+</html>
