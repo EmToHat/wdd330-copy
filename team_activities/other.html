@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Week 3</title>
+  </head>
+  <body>
+    <div class="section_header header_grid">
+      <h1>Week 03 Notes</h1>
+      <div class="arrows">
+        <a href="week_2_notes.html" class="previous round">&#8249;</a>
+        <a href="week_3_notes.html" class="next round">&#8250;</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <header>
+        <span class="card-title"><h2>Object Methods: "this"</h2></span>
+      </header>
+      <p class="card-text">
+        <b>Tasks</b>
+      </p>
+      <div class="code-block"></div>
+    </div>
+
+    <div class="card">
+      <header>
+        <span class="card-title"><h2>"This" in Javascript</h2></span>
+      </header>
+      <div class="card-text">
+        <b>So, What is "this"?</b>
+        <p><code>this</code> is a keyword, it's value gets changed depending on how a function gets called. <code>this</code> has 6 different ways that it can take on new values.</p>
+        <ol>
+          <li>"this" in global context</li>
+          <li>"this" in object construction</li>
+          <li>"this" in an object method</li>
+          <li>"this" in a simple function</li>
+          <li>"this" in an arrow function</li>
+          <li>"this" in an event listener</li>
+        </ol>
+        <p>
+          Why do we change "this"?
+          <br>
+          What does "this"?
+        </p>
+      </div>
+
+      <!--Global Context-->
+      <div class="card-text">
+        <b>"this" - Global Context</b>
+        <p>
+          When <code>this</code> is called outside of any function, in a global context, this defaults to the <code>window</code> object in the browser. <code>this</code> isn't used very much in a global context.
+        </p>
+      </div>
+
+      <!--Object Construction-->
+      <div class="card-text">
+        <p>
+          <b>"this" - Object Construction</b>
+          <br><br>
+          When you create a new instance of an object the <code>new</code> keyword, <code>this</code> refers to the instance.
+        </p>
+        <img src="images/week_3_construction.png" alt="Object Construction">
+        <p>
+          You can see that <code>greg</code> is an instance of <code>Person</code> in the code above. Now, whenever you reference <code>greg</code>, you won’t accidentally get thomas. So, setting <code>this</code> to be the instance makes perfect sense.
+        </p>
+      </div>
+
+      <!--Object Method-->
+      <div class="card-text">
+        <p>
+          <b>"this" - Object Method</b>
+          <br><br>
+          Methods are fancy words for functions that are associated w/an object. Methods are object literal shorthand.
+        </p>
+        <img src="images/week_3_method1.png" alt="Object Method">
+        <img src="images/week_3_method2.png" alt="Object Method">
+        <img src="images/week_3_method3.png" alt="Object Method">
+        <p>
+          In these two object contexts, you can see that the changed value of this lets you get the right instance, which is the basis for Object-oriented programming.
+        </p>
+      </div>
+
+      <!--Object Method-->
+      <div class="card-text">
+        <p>
+          <b>"this" - Simple Function</b>
+          <br><br>
+          Simple functions are functions you know extremely well; like the one below. Anonymous functions written in the same form are also considered simple functions.
+        </p>
+        <img src="images/week_3_simple1.png" alt="Simple Function">
+        <p>
+          On browsers, this is always set to Window in a simple function. The same is true even if you call a simple function in an object method.
+        </p>
+        <img src="images/week_3_simple2.png" alt="Simple Function">
+      </div>
+
+      <!--Arrow Functions-->
+      <div class="card-text">
+        <p>
+          <b>"this" - Arrow Function</b>
+          <br><br>
+          <code>this</code> in an arrow function is always the same as <code>this</code> around it (in its immediate scope). So, if you use arrow functions within an object method, the <code>this</code> context stays as the object, not <code>window</code>.
+        </p>
+        <p>
+          With arrow functions, the <code>speakLeet</code> example.
+        </p>
+        <img src="images/week_3_arrow.png" alt="arrow function">
+      </div>
+
+      <!--Event Listeners-->
+      <div class="card-text">
+        <p>
+          <b>"this" - Event Listeners</b>
+          <br><br>
+          <code>this</code> is set to the element that fired the event in an event listener.
+        </p>
+        <img src="images/week_3_event1.png" alt="Event Listeners">
+        <p>When creating more complex components, you may find yourself creating event listeners within methods.</p>
+        <img src="images/week_3_event2.png" alt="Event Listeners">
+      </div>
+    </div>
+
+    <div class="card">
+      <header>
+        <span class="card-title"><h2>Objects CH 05</h2></span>
+      </header>
+      <div class="card-text">
+        <p>
+          Everything in JavaScript is 1 of 6 primitive data types (strings, numbers, booleans, symbols, undefined and null) or an object. 
+        </p>
+      </div>
+
+      <!--Object Literals-->
+      <div class="card-text">
+        <p>
+          <b>Object Literals</b>
+          <br><br>
+          A JavaScript object literal is a comma-separated list of name-value pairs wrapped in curly braces. Object literals encapsulate data, enclosing it in a tidy package. This minimizes the use of global variables which can cause problems when combining code.
+        </p>
+        <p>
+          An object literal is an object that is created directly in the language by wrapping all it's properties and methods in curly braces {}. 
+          <br><br>
+          Object literals allow objects to be created quickly w/out the need for defining a class. They are also a useful way to organize code w/out polluting the global namescape.
+        </p>
+        <img src="images/week_3_objectliteral.png" alt="object literal">
+      </div>
+    </div>
+
+    <div class="card">
+      <header>
+        <span class="card-title"><h2>Document Object Model CH 06</h2></span>
+      </header>
+      <p class="card-text"></p>
+      <div class="code-block"></div>
+    </div>
+
+    <div class="card">
+      <header>
+        <span class="card-title"><h2>Events CH 07</h2></span>
+      </header>
+      <p class="card-text"></p>
+      <div class="code-block"></div>
+    </div>
+  </body>
+</html>

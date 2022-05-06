@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Week 3</title>
+  </head>
+  <body>
+    <div class="section_header header_grid">
+      <h1>Week 03 Notes</h1>
+      <div class="arrows">
+        <a href="week_2_notes.html" class="previous round">&#8249;</a>
+        <a href="week_3_notes.html" class="next round">&#8250;</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <header>
+        <span class="card-title"><h2>Objects - CH 05</h2></span>
+      </header>
+      <div class="card-text">
+        <h3>Javascript Objects</h3>
+        <p>Objects are variables, but objects also contain many values.</p>
+        <img src="images/week_3_objects.png" alt="Object Example 1" />
+        <img src="images/week_3_objects2.png" alt="Object Example 2" />
+        <p>Objects use name:value pairs.</p>
+        <p>
+          It is common to use the const keyword when creating objects. It cannot
+          be redeclared, reassigned or have a block scope.
+        </p>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+          <tr>
+            <td>type</td>
+            <td>Fiat</td>
+          </tr>
+          <tr>
+            <td>model</td>
+            <td>500</td>
+          </tr>
+          <tr>
+            <td>color</td>
+            <td>white</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="card-text">
+        <h3>Javascript Object Literal</h3>
+        <p>
+          A JavaScript object literal is a comma-separated list of name-value
+          pairs wrapped in curly braces. Object literals encapsulate data,
+          enclosing it in a tidy package. This minimizes the use of global
+          variables which can cause problems when combining code.
+          <br /><br />
+          If a property's value is a function is also known as a method.
+          <br /><br />
+          It's like a database of values (in fact, some databases use JavaScript
+          objects to store information).
+        </p>
+        <img
+          src="images/week_3_object_literal_ex.png"
+          alt="Object Literal Example"
+        />
+        <img
+          src="images/week_3_object_literal_ex2.png"
+          alt="Object Literal Example"
+        />
+      </div>
+
+      <div class="card-text">
+        <h3>Creating Objects</h3>
+        <p>To create an object literal, simply enter a pair of curly braces.</p>
+        <img
+          src="images/week_3_creating_objects_ex.png"
+          alt="Creating Objects"
+        />
+        <p>
+          It’s also possible to create an object using a constructor function.
+        </p>
+        <img
+          src="images/week_3_creating_objects_ex2.png"
+          alt="Creating Objects"
+        />
+      </div>
+
+      <div class="card-text">
+        <h3>Accessing Properties</h3>
+        <p>
+          To access properties of an object use the dot notation. If you try to
+          access a property that hasn't been defined, it will return undefined.
+        </p>
+        <img
+          src="images/week_3_accessing_props_ex.png"
+          alt="Creating Objects"
+        />
+        <p>
+          You can also access an object’s properties using bracket notation.
+        </p>
+        <img
+          src="images/week_3_accessing_props_ex2.png"
+          alt="Creating Objects"
+        />
+        <p>
+          Bracket Notation is not as common as Dot Notation but it does have
+          some advantages. It's the only way to access nonstandard property and
+          method names that don’t follow the variable naming rules. It also lets
+          you evaluate an expression and use it as the property key.
+        </p>
+        <img
+          src="images/week_3_accessing_props_ex3.png"
+          alt="Creating Objects"
+        />
+      </div>
+
+      <div class="card-text">
+        <p>
+          To call an object’s method we can also use dot or bracket notation.
+          Calling a method is the same as invoking a function, so parentheses
+          need to be placed after the method name.
+        </p>
+        <img src="images/week_3_methods_ex.png" alt="Calling Methods" />
+      </div>
+
+      <div class="card-text">
+        <h3>Project</h3>
+        <button type="button" id="btn" onclick="chFive()">Click me!</button>
+      </div>
+    </div>
+    <script>
+      function chFive() {
+        const quiz = [
+          { name: "Superman", realName: "Clark Kent" },
+          { name: "Wonder Woman", realName: "Diana Prince" },
+          { name: "Batman", realName: "Bruce Wayne" },
+        ];
+
+        const game = {
+          start(quiz) {
+            this.questions = [...quiz];
+            this.score = 0;
+            // main game loop
+            for (const question of this.questions) {
+              this.question = question;
+              this.ask();
+            }
+            // end of main game loop
+            this.gameOver();
+          },
+          ask() {
+            const question = `What is ${this.question.name}'s real name?`;
+            const response = prompt(question);
+            this.check(response);
+          },
+          check(response) {
+            const answer = this.question.realName;
+            if (response === answer) {
+              alert("Correct!");
+              this.score++;
+            } else {
+              alert(`Wrong! The correct answer was ${answer}`);
+            }
+          },
+          gameOver() {
+            alert(
+              `Game Over, you scored ${this.score} point${
+                this.score !== 1 ? "s" : ""
+              }`
+            );
+          },
+        };
+        game.start(quiz);
+      }
+    </script>
+  </body>
+</html>
