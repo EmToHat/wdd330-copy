@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Week 3</title>
+  </head>
+  <body>
+    <div class="section_header header_grid">
+      <h1>Week 03 Notes</h1>
+      <div class="arrows">
+        <a href="week_3_notes.html" class="previous round">&#8249;</a>
+        <a href="week_4_notes.html" class="next round">&#8250;</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <header>
+        <span class="card-title"><h2>Exercises</h2></span>
+      </header>
+      <div class="card-text">
+        <h3>Chapter 05</h3>
+        <div></div>
+      </div>
+      <div class="card-text">
+        <h3>Chapter 06</h3>
+        <div></div>
+      </div>
+      <div class="card-text">
+        <h3>Chapter 07</h3>
+        <div></div>
+      </div>
+    </div>
+    <script>
+      function chFive() {
+        const quiz = [
+          { name: "Superman", realName: "Clark Kent" },
+          { name: "Wonder Woman", realName: "Diana Prince" },
+          { name: "Batman", realName: "Bruce Wayne" },
+        ];
+
+        const game = {
+          start(quiz) {
+            this.questions = [...quiz];
+            this.score = 0;
+            // main game loop
+            for (const question of this.questions) {
+              this.question = question;
+              this.ask();
+            }
+            // end of main game loop
+            this.gameOver();
+          },
+          ask() {
+            const question = `What is ${this.question.name}'s real name?`;
+            const response = prompt(question);
+            this.check(response);
+          },
+          check(response) {
+            const answer = this.question.realName;
+            if (response === answer) {
+              alert("Correct!");
+              this.score++;
+            } else {
+              alert(`Wrong! The correct answer was ${answer}`);
+            }
+          },
+          gameOver() {
+            alert(
+              `Game Over, you scored ${this.score} point${
+                this.score !== 1 ? "s" : ""
+              }`
+            );
+          },
+        };
+        game.start(quiz);
+      }
+    </script>
+  </body>
+</html>
