@@ -1,49 +1,35 @@
 // Array Links
-const links = [
-  // Objects
-  {
-    week: "Week 01",
-    label: "Notes",
-    url: "week1/index.html",
-  },
-  {
-    week: "Week 02",
-    label: "Notes",
-    url: "week2/index.html",
-  },
-  {
-    week: "Week 03",
-    label: "Notes",
-    url: "week3/index.html",
-  },
-  {
-    week: "Week 04",
-    label: "Notes",
-    url: "week4/index.html",
-  },
-  {
-    week: "Week 05",
-    label: "Notes",
-    url: "week5/index.html",
-  },
-  {
-    week: "Week 06",
-    label: "Notes",
-    url: "week6/index.html",
-  },
-];
+   // Objects
+// const links = [
+//   {
+//     week: "Week 01",
+//     url: "week_1_notes.html"
+//   },
+//   {
+//     week: "Week 02",
+//     url: "week_2_notes.html"
+//   },
+//   {
+//     week: "Week 03",
+//     url: "week_3_notes.html"
+//   },
+//   {
+//     week: "Week 04",
+//     url: "week_4_notes.html"
+//   }
+// ]; 
 
-/*
-links.label.forEach(function (link) {
-    let liElement = document.createElement('li');
-    liElement.textContent = link;
-    list.appendChild(li);
-})*/
+const links = ["week_1_notes.html", "week_2_notes.html", "week_3_notes.html", "week_4_notes.html"]; 
 
-links.forEach(displayList);
+let ul = document.getElementById("first-ul")
 
-function displayList() {
-    // creates the variable list for the order list in the index.html file
-    const list = document.querySelector("ol");
-    let week = links.week;
-}
+let btn = document.getElementById("btn")
+
+btn.addEventListener("click", function() 
+{
+    links.forEach(function(e){
+        let li = document.createElement("li");
+        li.innerText = e;
+        ul.append(li)
+    })
+})
