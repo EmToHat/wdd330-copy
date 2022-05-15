@@ -100,3 +100,10 @@ table {
     text-align: left;
 }
 
+.home {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 0%);
+}
