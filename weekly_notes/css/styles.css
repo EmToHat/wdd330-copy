@@ -1,0 +1,109 @@
+body {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: hsl(215, 55%, 23%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+h1 {
+    padding: 8px;
+}
+
+.code-block {
+    background-color: hsl(210, 37%, 90%);
+    border-radius: 8px;
+    padding: 1em;
+}
+
+.section_header {
+    background-color: hsl(210, 37%, 63%);
+    border-left: 6px solid hsl(210, 70%, 29%);
+    padding: 12px;
+}
+
+.indent {
+    text-indent: 50px;
+}
+
+code {
+    font-family: 'Koulen', cursive;
+    color: hsl(300, 44%, 42%);
+}
+
+.log {
+    color: hsl(39, 100%, 50%);
+}
+
+.this {
+    color: hsl(300, 100%, 25%);
+}
+
+.comment {
+    color: hsl(0, 0%, 65%);
+}
+
+.header_grid {
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrows {
+    grid-column: 3/4;
+    margin-left: 4rem;
+}
+
+
+.card {
+    padding: 10px;
+    background-color: hsl(210, 37%, 63%);
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: hsl(42, 100%, 67%);
+    color: hsl(0, 0%, 100%);
+}
+
+.previous {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 0%);
+}
+
+.next {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 0%);
+}
+
+.round {
+    border-radius: 50%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+table {
+    width: 50%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+.home {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 0%);
+}

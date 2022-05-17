@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/week4_style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Week 4</title>
+  </head>
+  <body>
+    <div class="week_header header_grid">
+      <h1>W04 Notes</h1>
+      <div class="arrows">
+        <a href="/index.html" class="home">home</a>
+        <a href="week_3_notes.html" class="previous round">&#8249;</a>
+        <a href="week_4_notes.html" class="next round">&#8250;</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 class="card-title">Ch 8: Forms</h2>
+      <div class="card-section">
+        <h3>Forms</h3>
+        <p>
+          Forms are a method that are used commonly in web pages. Forms are
+          everywhere and most of us use them on our favorite sites.
+        </p>
+        <p>
+          Forms use the element, form inside < >. The form element contains form
+          controls such as input fields, select menus and buttons.
+        </p>
+        <p>
+          When a form is submitted it will be sent to a server where it will be
+          processed with PHP or Ruby, two back end programming languages. But it
+          is becoming more and more popular to process that information with JS
+          a front end language before being sent to the server.
+        </p>
+      </div>
+
+      <div class="card-section">
+        <h3>A Searching Example</h3>
+        <img src="images/search_example.png" alt="form example" />
+        <a href="search.html">Simple Form Example</a>
+        <p>
+          This form has a name attribute of search, and it also contains two
+          form controls-and input field and a button. The input field allows the
+          user to search for info, and the button allows the user to submit the
+          query.
+        </p>
+
+        <h4>Accessing Form Elements</h4>
+        <p>
+          DOM had a property called document.forms which returned a collection
+          of HTML forms into the document in the order they appeared in the
+          markup.
+        </p>
+        <img src="images/index_notation.png" alt="index notation" />
+        <img src="images/index_notation2.png" alt="index notation 2" />
+        <img src="images/name_attribute.png" alt="name attribute" />
+
+        <h4>Form Properties and Methods</h4>
+        <p>
+          Form Objects have many useful properties and methods which can be used
+          to interact with forms.
+        </p>
+        <ul>
+          <li>form.submit()</li>
+          <li>form.reset()</li>
+          <li>form.action</li>
+        </ul>
+
+        <h4>Submitting a Form</h4>
+        <p>
+          Most important form event, this event occurs when the form is
+          submitted.
+        </p>
+
+        <h4>Form Controls</h4>
+        <ul>
+          <li>input</li>
+          <li>select</li>
+          <li>textarea</li>
+          <li>button</li>
+        </ul>
+      </div>
+
+      <div class="card-section">
+        <h3>Input Fields</h3>
+        <p>
+          Input Fields are the most common types of form control, but there are
+          several categories for input fields.
+        </p>
+
+        <h4>Text Input Fields</h4>
+        <p>
+          Default type of input field is the text input field. This is used for
+          a short piece of text, such as a username.
+        </p>
+        <p>
+          The type='text' attribute isn't required.But it is advised to be used.
+          It helps with readability, maintenance and future-proofing.
+        </p>
+
+        <h4>Password Input Fields</h4>
+        <p>
+          input type='password' is used to enter sensitive information such as
+          passwords. The characters will be concealed when they are entered into
+          this field.
+        </p>
+
+        <h4>Checkbox Input Fields</h4>
+        <p>
+          input type='checkbox' is used to select different options, such as
+          checked (true) or unchecked (false). The user may select more than one
+          checkbox from the list of options.
+        </p>
+
+        <h4>Radio Button Input Fields</h4>
+        <p>
+          input type='radio' is used for the user to choose only one option from
+          the list. Usually a short list of options.
+        </p>
+
+        <h4>Hidden Input Fields</h4>
+        <p>
+          input type='hidden' this type of field isn't displayed by the browser,
+          but is does have a value when submitted.
+        </p>
+
+        <h4>File Input Fields</h4>
+        <p>input type='file' this allows you to upload files.</p>
+
+        <h4>Other Input Types</h4>
+        <p>
+          There are many new imput types with HTML5 such as number, tel and
+          color.
+        </p>
+
+        <h4>Text Area</h4>
+        <p>
+          the textarea element is used to allow the user to enter multiple lines
+          of text such as a comment or blog post.
+        </p>
+      </div>
+
+      <div class="card-section">
+        <h3>Form Validation</h3>
+        <p>
+          Form validation is the porcess of checking whether there is missing
+          information for information input incorrectly.
+        </p>
+        <p>Examples</p>
+        <ul>
+          <li>A required field is completed</li>
+          <li>An email address is valid</li>
+          <li>A number is entered when numerical data is required</li>
+          <li>A password is at least a minimum number of characters</li>
+        </ul>
+        <p>
+          Validation can happen on the client side using JS as well as on the
+          other side. JS shouldn't be relied on to validate the data before it
+          is saved to a database.
+        </p>
+      </div>
+
+      <div class="card-section">
+        <h3>Disabling the Submit Button</h3>
+        <p>
+          Another useful technique that can aid usability is to disable the
+          submit button if there are errors on the form. If the submit button is
+          disabled then no action is taken when it’s clicked. Most browsers will
+          also display it in a lighter color to indicate that it cannot be
+          clicked on. This prevents users from submitting a form containing any
+          errors. A submit button can be disable by added the disabled attribute
+          to the input element
+        </p>
+      </div>
+
+      <div class="card-section">
+        <h3>Projects</h3>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 class="card-title">Ch 12: Object Oriented Programming(OOP)</h2>
+      <div class="card-section">
+        <h3>OOP</h3>
+        <p>
+          Object-oriented programming (OOP for short) is a style of programming
+          that involves separating the code into objects that have properties
+          and methods.
+        </p>
+        <p>
+          There are three main concepts in OOP: encapsulation, polymorphism and
+          inheritance.
+        </p>
+
+        <h4>Encapsulation</h4>
+        <p>
+          Juicer Example: Fruit is put into the machine, press the 'on' button
+          and out comes the juice.
+        </p>
+        <p>
+          The inner workings are kept hidden inside the object and only the
+          essential functionalities are exposed to the end user, such as the
+          'on' button. In OOP, this involves keeping all the programming logic
+          inside an object and making methods available to implement the
+          functionality, without the outside world needing to know how it’s
+          done.
+        </p>
+
+        <h4>Polymorphism</h4>
+        <p>
+          Juicer Example: My juicer isn't the only appliance I own that has an
+          'on' button, although the way the on button works is slightly
+          different for each appliance. My juicer also uses the same electrical
+          outlet as other appliances in my kitchen. I can also place various
+          types of fruit into it and it still juices them.
+        </p>
+        <p>
+          These examples demonstrate the concept of polymorphism: the same
+          process can be used for different objects. In OOP, this means various
+          objects can share the same method, but also have the ability to
+          override shared methods with a more specific implementation.
+        </p>
+
+        <h4>Inheritance</h4>
+        <p>
+          I’d really like the next model up from my juicer, as it can deal with
+          more types of fruit and it’s a bit quieter. Even though it has these
+          extra features, I’m sure that inside it uses many of the same parts
+          that my juicer has. This demonstrates the concept of inheritance:
+          taking the features of one object then adding some new features. In
+          OOP, this means we can take an object that already exists and inherit
+          all its properties and methods. We can then improve on its
+          functionality by adding new properties and methods.
+        </p>
+
+        <h4>Classes</h4>
+        <p>
+          Many object-oriented languages, such as Java and Ruby, are known as
+          class-based languages. This is because they use a class to define a
+          blueprint for an object. Objects are then created as an instance of
+          that class, and inherit all the properties and methods of the class.
+          In my juicer example, the juicer class would represent the design of
+          the juicer, and each juicer that’s made on the production line would
+          be instances of that class.
+        </p>
+      </div>
+      <div class="card-section">
+        <h3>Projects</h3>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 class="card-title">Ch 15: Modern JavaScript</h2>
+      <div class="card-section">
+        <h3>Modular JavaScript</h3>
+        <p>
+          Self-contained piece of code which provides functions and methods.This
+          helps to organize the code in separate reusable files, this impoves
+          the maintainability of the code.
+        </p>
+
+        <p>
+          coupling: The coupling of code refers to how dependent certain
+          elements or modules of code are on each other. Two pieces of code are
+          said to be tightly coupled if one relies on the other to run.
+        </p>
+      </div>
+
+      <div class="card-section">
+        <h3>Javascript Objects</h3>
+        <p>
+          Templating languages often have a mechanism for inserting dynamic data
+          into the HTML.
+        </p>
+      </div>
+
+      <div class="card-section">
+        <h3>Projects</h3>
+      </div>
+    </div>
+
+    <script></script>
+  </body>
+</html>
