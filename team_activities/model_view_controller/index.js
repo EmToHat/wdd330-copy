@@ -1,0 +1,2 @@
+showHikeList()
+showHikeList()
