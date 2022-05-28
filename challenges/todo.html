@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- / Css -->
+    <link rel="stylesheet" href="todo.css" />
+    <title>To Do</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Todo List</h1>
+    </header>
+
+    <div class="todo-add-container">
+      <div class="list-filters">
+        <span class="all-task-list-btn button">Show All Items</span>
+        <span class="complete-task-list-btn button">Completed Items</span>
+        <span class="incomplete-task-list-btn button">Incomplete Items</span>
+      </div>
+
+      <input
+        type="text"
+        class="todo-add-input"
+        placeholder="type task here..."
+      />
+      <span class="todo-add-btn button">Add</span>
+    </div>
+
+    <div class="todo-list-container">
+      <ul class="todo-task-list"></ul>
+    </div>
+
+    <div class="filter-items-container">
+      <div class="incomplete-task-items">
+        <h2>Incomplete Tasks</h2>
+        <ul class="incomplete-list"></ul>
+      </div>
+      <div class="completed-task-items">
+        <h2>Completed Tasks</h2>
+        <ul class="completed-list"></ul>
+      </div>
+    </div>
+
+    <span class="tasks-remaining"></span>
+
+    <script src="todo.js"></script>
+  </body>
+</html>

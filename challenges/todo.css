@@ -1,0 +1,71 @@
+:root {
+    --clr-primary: rgb(50,100,180);
+    --clr-light: #f4f4f4; 
+    --clr-dark: #333; 
+    --clr-warning: rgb(99,36,36); 
+}
+
+*,
+*::before,
+*::after {
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    padding: 1rem;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    background-color: var(--clr-primary);
+    color: var(--clr-light);
+}
+
+.button {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.completed-btn {
+    margin-right: 10px;
+}
+
+.all-task-items,
+.incomplete-task-items, 
+.completed-task-items{
+    margin: 10px;
+}
+
+.todo-add-container {
+    display: flex;
+    flex-direction: column;
+    gap:9px;
+}
+
+.list-filters {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+}
+
+.filter-items-container {
+    display: flex;
+    margin-bottom: 9px;
+}
+
+input {
+    padding: 5px;
+    width: 400px;
+}
+
+.todo-add-btn {
+    text-align: center;
+    width: 3em;
+}
+
+.todo-item {
+    padding: 10px;
+}
