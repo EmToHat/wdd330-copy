@@ -1,71 +1,52 @@
 :root {
-    --clr-primary: rgb(50,100,180);
-    --clr-light: #f4f4f4; 
-    --clr-dark: #333; 
-    --clr-warning: rgb(99,36,36); 
-}
-
-*,
-*::before,
-*::after {
-    font-family: inherit;
-    box-sizing: border-box;
+    --main-clr-primary: rgb(50, 171, 180);
+    --main-clr-light: rgb(255, 255, 255); 
+    --main-clr-dark: rgb(59, 58, 82);
 }
 
 body {
-    margin:0;
-    padding: 1rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
     font-family: "Work Sans", sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
-    background-color: var(--clr-primary);
-    color: var(--clr-light);
+    box-sizing: border-box;
+    background-color: var(--main-clr-light);
+    color: var(--main-clr-dark);
 }
 
-.button {
-    background-color: var(--clr-light);
-    color: var(--clr-dark);
-    padding: 5px;
-    border-radius: 10px;
+.categories,
+.task-list, 
+#title,
+.tasks-remaining {
+    padding: 10px;
+}
+
+.completed-btn, 
+.delete-btn{
+   margin-right: 9px;
 }
 
 .completed-btn {
-    margin-right: 10px;
+    margin-left: 9px;
 }
 
-.all-task-items,
-.incomplete-task-items, 
-.completed-task-items{
-    margin: 10px;
-}
-
-.todo-add-container {
+.task-lists{
     display: flex;
-    flex-direction: column;
-    gap:9px;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.list-filters {
-    display: flex;
-    flex-direction: row;
-    gap: 9px;
+#title, .title {
+    color: var(--main-clr-primary);
 }
 
-.filter-items-container {
-    display: flex;
-    margin-bottom: 9px;
-}
-
-input {
-    padding: 5px;
-    width: 400px;
-}
-
-.todo-add-btn {
-    text-align: center;
-    width: 3em;
-}
-
-.todo-item {
+button {
+    color:var(--main-clr-light);
+    background-color: var(--main-clr-primary);
+    border: none; 
     padding: 10px;
+    border-radius: 10px;
 }
