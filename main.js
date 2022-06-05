@@ -88,7 +88,7 @@ const myLinks = [
     blocksem: "first",
     label: "Week 07 | Notes",
     type: "note",
-    url: "https://github.com/emt0rres/wdd330/portfolio/notes/week_07/week_7_notes.html",
+    url: "https://emt0rres.github.io/wdd330/portfolio/notes/week_07/week_7_notes.html",
   },
   {
     week: "seven",
