@@ -1,0 +1,279 @@
+
+    <div class="card">
+      <header>
+        <span class="card-title"><h2>Arrays, Logic, and Loops CH 03</h2></span>
+      </header>
+      <p class="card-text">
+        <b>Arrays</b>
+        <br /><br />
+        An array is an ordered list of values.
+      </p>
+      <p class="code-block">
+        const myArray = [];
+        <br />
+        << []
+      </p>
+      <p class="code-block">
+        const myArray = new Array();
+        <br />
+        << []
+      </p>
+      <p class="code-block">
+        typeof []
+        <br />
+        << 'object'
+      </p>
+      <p class="card-text">
+        <b>Sets</b>
+        <br /><br />
+        Sets were introduced to the specification in ES6. A set is a data
+        structure that represents a collection of unique values, so it cannot
+        include any duplicate values. They are similar in concept to a
+        mathematical set, although (for the time being at least) they don't
+        contain mathematical set operations such as union, intersection and
+        product.
+        <br />
+        Sets offer a useful way to keep track of data without having to check if
+        any values have been duplicated. It's also quick and easy to check if a
+        particular value is in a set, which can be a slow operation if an array
+        is used.
+      </p>
+      <p class="card-text">
+        <b>Sets</b>
+        <br /><br />
+        Sets were introduced to the specification in ES6. A set is a data
+        structure that represents a collection of unique values, so it cannot
+        include any duplicate values. They are similar in concept to a
+        mathematical set, although (for the time being at least) they don't
+        contain mathematical set operations such as union, intersection and
+        product.
+        <br />
+        Sets offer a useful way to keep track of data without having to check if
+        any values have been duplicated. It's also quick and easy to check if a
+        particular value is in a set, which can be a slow operation if an array
+        is used.
+      </p>
+      <p class="card-text">
+        <b>Logic</b>
+        <br /><br />
+        Maps were another data structure introduced in the ES6 specification.
+        They are a convenient way of keeping a list of key and value pairs, and
+        are similar to 'hashes', or 'hash tables' or 'dictionaries' in other
+        programming languages.
+      </p>
+      <p class="card-text">
+        <b>Maps</b>
+        <br /><br />
+        In this section, we’ll begin to look at logical conditions that allow
+        you to control the flow of a program by running different blocks of
+        code, depending on the results of certain operations.
+      </p>
+      <p class="code-block">
+        // if statements
+        <br />
+        if (condition) {
+        <br />
+        // whatever code that is in here will run if condition is true
+        <br />
+        }
+      </p>
+      <p class="code-block">
+        // if else statements, if the condition is false ELSE will run
+        <br />
+        if (condition) {
+        <br />
+        // whatever code that is in here will run if condition is true
+        <br />
+        } else {
+        <br />
+        // this code will run if the condition is false
+        <br />
+        }
+      </p>
+      <p class="code-block">
+        // Switch operator, The switch operator can be used to make your code
+        easier to follow when there are lots of conditions to test.
+        <br />
+        switch (number) {
+        <br />
+        case 4:
+        <br />
+        console.log('You rolled a four');
+        <br />
+        break;
+        <br />
+        case 5:
+        <br />
+        console.log('You rolled a five');
+        <br />
+        break;
+        <br />
+        case 6:
+        <br />
+        console.log('You rolled a six');
+        <br />
+        break;
+        <br />
+        default:
+        <br />
+        console.log('You rolled a number less than four');
+        <br />
+        break;
+        <br />
+        }
+      </p>
+      <p class="card-text">
+        <b>Loops</b>
+        <br /><br />
+        Loops will repeat a piece of code over and over again according to
+        certain conditions.
+      </p>
+      <p class="code-block">
+        // While Loop, this loop repeatedly runs a block of code while a certain
+        condition remains true.
+        <br />
+        // This loop will be infinite unless a condition is met at some point.
+        The code could be stuck if there isn't a stopping condition.
+        <br />
+        while (condition) {
+        <br />
+        // code to be executed
+        <br />
+        }
+      </p>
+      <p class="code-block">
+        // For loops are the most common loop in JS.
+        <br />
+        for (initialization ; condition ; after) {
+        <br />
+        do something
+        <br />
+        }
+      </p>
+    </div>
+
+    <div class="card">
+      <header>
+        <span class="card-title"><h2>Functions CH 04</h2></span>
+      </header>
+      <p class="card-text">
+        <b>Defining a Function</b>
+      </p>
+      <p class="code-block">
+        // To define a function literal, we use the function declaration
+        <br />
+        function hello() {
+        <br />
+        console.log('Hello World!');
+        <br />
+        }
+      </p>
+      <p class="code-block">
+        // Another way of defining a function literal is to create a function
+        expression. This function is an anonymous function because it doesn't
+        have a name.
+        <br />
+        const goodbye = function(){
+        <br />
+        console.log('Goodbye World!');
+        <br />
+        };
+        <br /><br />
+        // But you can create a named function also
+        <br />
+        const goodbye = function bye(){
+        <br />
+        console.log('Goodbye World!');
+        <br />
+        };
+      </p>
+      <p class="code-block">
+        // A function can also be declared using constructor Function(). The
+        body of this function is entered as a string.
+        <br />
+        const hi = new Function('console.log("Hi World!");');
+      </p>
+      <p class="card-text">
+        <b>Invoking a Function</b>
+        <br /><br />
+        Invoking the function will run the code inside the function's body. In
+        order to invoke the function you enter it's name followed by
+        parentheses.
+        <br>
+        The function can be invoked over and over again just by typing its name
+        followed by parentheses.
+      </p>
+      <p class="code-block">
+        hello();
+        <br />
+        << 'Hello World!'
+      </p>
+      <p class="card-text">
+        <b>Return Values</b>
+        <br /><br />
+        All function RETURN a value, this can be specified when using the return
+        statement. Any function that doesn't specifically say return will return
+        undefined by default.
+      </p>
+      <p class="code-block">
+        function howdy() {
+        <br />
+        return 'Howdy World!';
+        <br />
+        }
+      </p>
+      <p class="card-text">
+        <b>Parameters & Arguments</b>
+        <br /><br />
+        Parameters and arguments are terms that are often used interchangeably
+        to represent values provided for the function as an input.
+        <br>
+        These two terms do have a difference but it is subtle. Any parameters a
+        function needs are set when the function is defined. But when the
+        function is invoked, the function is provided with arguments.
+      </p>
+      <p class="card-text">
+        <b>Callbacks</b>
+        <br /><br />
+        Functions can be given as a parameter to other functions. When a
+        function is passed as an argument to another function this is known as a
+        callback.
+      </p>
+      <p class="code-block">
+        function sing(song) { 
+          <br>
+          console.log(`I'm singing along to ${song}`);
+          <br>
+        }
+        <br>
+        sing('Let It Go') 
+        <br>
+        << 'I'm singing along to Let It Go'
+      </p>
+      <p class="code-block">
+        function sing(song, callback) { 
+          <br>
+          console.log(`I'm singing along to ${song}.`);
+          <br>
+          callback();
+          <br>
+        }
+      </p>
+      <p class="card-text">
+        <b>Array Iterators</b>
+        <br /><br />
+        Arrays have a number of methods that utilize callbacks to make them more flexible.
+        <br>
+        Arrow functions are frequently used to declare the callbacks, this because they are short functions, often only taking up one line, making them a good candidate for using the arrow notation.
+        <br><br>
+        forEach()
+        <br>
+        map()
+        <br>
+        reduce()
+        <br>
+        filter()
+      </p>
+    </div>
+  </body>
+</html>
