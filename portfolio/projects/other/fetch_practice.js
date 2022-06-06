@@ -1,4 +1,4 @@
-fetch('https://pokeapi.co/')
+fetch('https://pokeapi.co/api/v2/')
     //.then(response => console.log(response))
     //.then(response => response.json())
     
@@ -11,4 +11,3 @@ fetch('https://pokeapi.co/')
     })
     .then(data => console.log(data))
     //.catch(error => console.log('ERROR'))
-
