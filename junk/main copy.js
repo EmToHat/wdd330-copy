@@ -4,8 +4,6 @@
 // seven, eight, nine, ten, eleven, twelve
 // type:
 // note, project, team
-//"https://emt0rres.github.io/wdd330/portfolio/notes/week_01/week_1_notes.html"
-
 
 const myLinks = [
   {
@@ -13,7 +11,14 @@ const myLinks = [
     blocksem: "first",
     label: "Week 01 | Notes",
     type: "note",
-    url: "../portfolio/notes/week_01/week_1_notes.html",
+    url: "https://emt0rres.github.io/wdd330/portfolio/notes/week_01/week_1_notes.html",
+  },
+  {
+    week: "one",
+    blocksem: "first",
+    label: "Week 01 | Projects",
+    type: "project",
+    url: "portfolio/projects/week_01/index.html",
   },
   {
     week: "two",
@@ -23,11 +28,25 @@ const myLinks = [
     url: "portfolio/notes/week_02/index.html",
   },
   {
+    week: "two",
+    blocksem: "first",
+    type: "project",
+    label: "Week 02 | Projects",
+    url: "portfolio/projects/week_02/index.html",
+  },
+  {
     week: "three",
     blocksem: "first",
     label: "Week 03 | Notes",
     type: "note",
     url: "portfolio/notes/week_03/index.html",
+  },
+  {
+    week: "three",
+    blocksem: "first",
+    label: "Week 03 | Projects",
+    type: "project",
+    url: "portfolio/projects/week_03/index.html",
   },
   {
     week: "four",
@@ -37,11 +56,25 @@ const myLinks = [
     url: "portfolio/notes/week_04/index.html",
   },
   {
+    week: "four",
+    blocksem: "first",
+    label: "Week 04 | Projects",
+    type: "project",
+    url: "portfolio/projects/week_04/index.html",
+  },
+  {
     week: "five",
     blocksem: "first",
     label: "Week 05 | Notes",
     type: "note",
     url: "portfolio/notes/week_05/index.html",
+  },
+  {
+    week: "five",
+    blocksem: "first",
+    label: "Week 05 | Projects",
+    type: "project",
+    url: "portfolio/projects/week_05/index.html",
   },
   {
     week: "six",
@@ -58,11 +91,25 @@ const myLinks = [
     url: "https://emt0rres.github.io/wdd330/portfolio/notes/week_07/week_7_notes.html",
   },
   {
+    week: "seven",
+    blocksem: "first",
+    label: "Week 07 | Projects",
+    type: "project",
+    url: "../portfolio/projects/week_07/index.html",
+  },
+  {
     week: "eight",
     blocksem: "second",
     label: "Week 08 | Notes",
     type: "note",
     url: "../portfolio/notes/week_08/index.html",
+  },
+  {
+    week: "eight",
+    blocksem: "second",
+    label: "Week 08 | Projects",
+    type: "project",
+    url: "../portfolio/projects/week_08/index.html",
   },
   {
     week: "nine",
