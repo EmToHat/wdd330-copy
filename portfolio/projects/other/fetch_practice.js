@@ -10,4 +10,5 @@ fetch('https://pokeapi.co/api/v2/')
         }
     })
     .then(data => console.log(data))
+    
     //.catch(error => console.log('ERROR'))
