@@ -8,143 +8,91 @@
     <!-- /CSS File(s) -->
     <link rel="stylesheet" href="template/template.css" />
 
+    <!-- /Google Font(s) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Week 01</title>
   </head>
   <body>
-    <div class="header">
-      <a href="https://emt0rres.github.io/wdd330/">&#8249; Home</a>
-      <h1>Week 01 Notes</h1>
-      <a href="../notes/week_2_notes.html">Week 02 &#8250;</a>
-    </div>
+    <div class="container">
+      <div class="arrow-title-box">
+        <a href="https://emt0rres.github.io/wdd330/">
+          <div class="arrow-left arrow">&#8249;-</div>
+          Home
+        </a>
 
-    <div class="notes">
-      <div id="top-left">
-        <h2>2.3 Remembering User Info</h2>
-        <p>
-          Points to PONDER:
-          <ul>
-            <li>How can I store data so it isn't lost when the application stops?</li>
-            <li>How do I get data back into my application once it has been stored?</li>
-            <li> What can I do to allow the user to communicate?</li>
-          </ul>
-        </p>
-        <p>
-          Points to REMEMBER:
-          <ul>
-            <li>Applications communicate w/the user.</li>
-            <li>How do I get data back into my application once it has been stored?</li>
-            <li>How do I get data back into my application once it has been stored?</li>
-            <liComputers are <em>stupid</em>.</li>
-            <li>Computers can't <em>remember</em> anything. When an application stops anthing that the computer was working on is <em>gone</em>.</li>
-            <li> If the application had been designed to store what it was working on, that info won't disapear.</li>
-            <li>OUTPUT = info stored or shared w/the user.</li>
-            <li>INPUT = info coming in from where it was stored or what the user entered.</li>
-            <li>Techies call this IO (input-output).</li>
-            <li>The input tag = allows user to input info.</li>
-            <li>The textarea tag = allows the user to input text.</li>
-            <li>The title tag = explains what the page will do.</li>
-          </ul>
-        </p>
+        <h1>Week 01 Notes</h1>
+        
+        <a href="../notes/week_2_notes.html">
+          Week 02
+          <div class="arrow-right arrow">-&#8250;</div>
+        </a>
       </div>
 
-      <div id="top-right">
-        <h2>Master Mobile UX</h2>
-        <p>
-          Step 01: How to rewire your brain for Mobile First UX
+      <!--
+        Grid
+        small - 1 column
+        medium - 2 columns
+        large - 1 row
+        normalize
+      -->
+      <div class="note-box grid-box">
+        <div class="notes-1 notes-css">
+          <div class="bar"></div>
+          <h2>subtitle</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi,
+            doloremque quod ut perspiciatis provident!
+          </p>
+        </div>
+
+        <div class="notes-2 notes-css">
+          <div class="bar"></div>
+          <h2>subtitle</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+            libero unde amet, sit dicta debitis repellendus ipsum ducimus!
+            Blanditiis, officia?
+          </p>
+        </div>
+
+        <div class="notes-3 notes-css">
+          <div class="bar"></div>
+          <h2>subtitle</h2>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+
+        <div class="notes-4 notes-css">
+          <div class="bar"></div>
+          <h2>subtitle</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Cupiditate, consequatur?
+          </p>
+        </div>
+
+        <div class="notes-5 questions notes-css">
+          <div class="bar"></div>
+          <h2>Questions</h2>
           <ul>
-            <li>"If you design for the smallest, least powerful device first, then you
-              will focus on the content, and your core functionality....doing it the
-              other way around is like putting a marshmellow into a piggy bank..."
-              Quote by: Joel Marsh - The Hipper Element</li>
-            <li>2007 the iphone was introduced.</li>
-            <li>Responsiveness doesn't equal mobile first.</li>
-            <li>Mobile = the new desktop</li>
+            <li>question1</li>
+            <li>question2</li>
+            <li>question3</li>
           </ul>
-        </p>
-        <p>
-          Step 02: How to improve UX by understanding Users
-          <ul>
-            <li>"It's really hard to design products by focus groups. A lot of times,
-              people don't know what they want until you show it to them."
-              Quote by: Steve Jobs | Apple</li>
-            <li>Observe what a user does.</li>
-          </ul>
-        </p>
-        <p>
-          Step 03: Better Mobile UX with Strategic Menu Design
-          <ul>
-            <li>
-              "The trouble w/software is... it sucks... Software customers...have
-              learned to live with mediocre software. We do not count on software to
-              be intuitively easy to understand or to work consistently. Instead, we
-              make do." Quote By: Stewart Alsop | Venture Capitalist
-            </li>
-            <li>Nav Menu placed in the bottom of the mobile application.</li>
-            <li>Placement Matters!</li>
-            <li>Understanding Matters: many users don't know what the hamburger menu
-              button is.</li>
-            <li>Hit your users in the happies.</li>
-          </ul>
-        </p>
-        <p>
-          Step 04: Designing Intuitive and Mobile Friendly Forms
-          <ul>
-            <li> 
-              "[The constraints of Mobile] push you toward more focused, simplified
-              solutions. You can only fit so much on the screen, people often have
-              to wait for it, and they're unlikely to give you their full attention.
-              So make it easy to understand and use and focus on the important
-              things first. Mobile is a great forcing function for simplicity." Quote By: Luke Wroblewski | Co-Founder of Polar and Bagcheck
-            </li>
-            <li>Float labels for forms, enable auto fill/ complete on forms.</li>
-            <li>Passwords, show them but allow the user to hide them too.</li>
-            <li>Keyboards, bring up the number pad.</li>
-            <li>Link phone numbers.</li>
-          </ul>
-        </p>
-        <p>
-          Step 05: Designing a Better Mobile Advertising User Experience
-          <ul>
-            <li> 
-              "End-users, not technologies, shape the market. Consequently marketers
-              need to stay abreast not only of technological developments but also
-              of the way people respond to them." Quote By: Matt Haig | Author
-            </li>
-            <li>Before you advertise, research.</li>
-            <li>Stop using Pop-ups/Pop-overs.</li>
-          </ul>
-        </p>
+        </div>
       </div>
 
-      <div id="bottom-left">
-        <h2>Questions</h2>
-        <p>
-          My brain is so confused with how to access the object inside an array.
-          Is it similar to JSON?
-        </p>
-        <p>
-          How many devices do I have?
-        </p>
-      </div>
-
-      <div id="bottom-right">
-        <h2>Project(s)</h2>
-        <p>
-          Story Editor | <a href="/portfolio/projects/week_01/story_editor.html">Project Link</a>
-          <br><br>
-          The user should be able to...
-          <ul>
-            <li>write text</li>
-            <li>save that text</li>
-            <li>edit that text</li>
-            <li>show the text</li>
-          </ul>
-          Goal:
-          <ul>
-            <li>Show how to get/store/display user data.</li>
-          </ul>
-        </p>
+      <div class="footer">
+        <p>&copy;<span id="year"></span> | Emilee Hatch | BYU-Idaho | Course WDD330</p>
+        <p>Last Update: <span id="modified"></span></p>
       </div>
     </div>
+
+    <script src="template/template.js"></script>
   </body>
 </html>

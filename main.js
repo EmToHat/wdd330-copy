@@ -46,7 +46,7 @@ const myLinks = [
   {
     week: "six",
     blocksem: "first",
-    label: "Week 06 | Todo List Challenge",
+    label: "Week 06 | Todo List",
     type: "challenge",
     url: "https://emt0rres.github.io/wdd330/portfolio/challenges/todo/todo.html",
   },
@@ -102,6 +102,7 @@ for (let i = 0; i < myLinks.length; i++) {
   let anchorElement = document.createElement("a");
   let listElement = document.createElement("li");
 
+  // The textContent property sets or returns the text content of the specified node, and all its descendants. - w3schools
   anchorElement.textContent = myLinks[i].label;
 
   // Set Attribute
@@ -111,3 +112,12 @@ for (let i = 0; i < myLinks.length; i++) {
   listElement.appendChild(anchorElement);
   myUnorderedList.appendChild(listElement);
 }
+
+
+let lastUpdate = document.lastModified;
+document.getElementById("modified").innerHTML = lastUpdate;
+
+
+const date = new Date();
+const year = date.getFullYear();
+document.getElementById("year").innerHTML = year;
