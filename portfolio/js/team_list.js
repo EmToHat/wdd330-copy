@@ -1,11 +1,11 @@
 const myTeamLinks = [
     {
       label: "Free Code Camp Projects",
-      url: "../portfolio/projects/freecodecamp/index.html",
+      url: "../wdd330/portfolio/projects/freecodecamp/index.html",
     },
     {
       label: "Team Activities",
-      url: "../portfolio/projects/team/index.html",
+      url: "../wdd330/portfolio/projects/team/index.html",
     }
   ];
   

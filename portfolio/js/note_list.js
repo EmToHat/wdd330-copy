@@ -1,51 +1,51 @@
 const myNotesLinks = [
   {
     label: "Week 01",
-    url: "../portfolio/notes/week01/index.html",
+    url: "../wdd330/portfolio/notes/week01/index.html",
   },
   {
     label: "Week 02",
-    url: "../portfolio/notes/week02/index.html",
+    url: "../wdd330/portfolio/notes/week02/index.html",
   },
   {
     label: "Week 03",
-    url: "../portfolio/notes/week03/index.html",
+    url: "../wdd330/portfolio/notes/week03/index.html",
   },
   {
     label: "Week 04",
-    url: "../portfolio/notes/week04/index.html",
+    url: "../wdd330/portfolio/notes/week04/index.html",
   },
   {
     label: "Week 05",
-    url: "../portfolio/notes/week05/index.html",
+    url: "../wdd330/portfolio/notes/week05/index.html",
   },
   {
     label: "Week 06",
-    url: "../portfolio/notes/week06/index.html",
+    url: "../wdd330/portfolio/notes/week06/index.html",
   },
   {
     label: "Week 07",
-    url: "../portfolio/notes/week07/index.html",
+    url: "../wdd330/portfolio/notes/week07/index.html",
   },
   {
     label: "Week 08",
-    url: "../portfolio/notes/week08/index.html",
+    url: "../wdd330/portfolio/notes/week08/index.html",
   },
   {
     label: "Week 09",
-    url: "../portfolio/notes/week09/index.html",
+    url: "../wdd330/portfolio/notes/week09/index.html",
   },
   {
     label: "Week 10",
-    url: "../portfolio/notes/week10/index.html",
+    url: "../wdd330/portfolio/notes/week10/index.html",
   },
   {
     label: "Week 11",
-    url: "../portfolio/notes/week11/index.html",
+    url: "../wdd330/portfolio/notes/week11/index.html",
   },
   {
     label: "Week 12",
-    url: "../portfolio/notes/week12/index.html",
+    url: "../wdd330/portfolio/notes/week12/index.html",
   },
 ];
 
