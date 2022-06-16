@@ -6,16 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- /CSS File(s)-->
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
 
     <title>WDD 330 Portfolio</title>
   </head>
   <body>
-    <h1>WDD 330 Portfolio</h1>
-    <h2>Spring Semester 2022</h2>
+    <nav class="nav-container">
+      <h1>WDD 330 Portfolio</h1>
+      <h2>Spring Semester 2022</h2>
+    </nav>
 
-    <ul id="portfolio-list"></ul>
-   
+    <div class="notes-container">
+      <h3>Notes</h3>
+      <ul id="notes-list"></ul>
+    </div>
+
+    <div class="challenge-container">
+      <h3>Challenges</h3>
+      <ul id="challenges-list"></ul>
+    </div>
+
+    <div class="activity-container">
+      <h3>Activities</h3>
+      <ul id="team-list"></ul>
+    </div>
 
     <footer>
       <p>&copy;<span id="year"></span> | Emilee Hatch | BYU-Idaho | Course WDD330</p>
@@ -23,6 +40,9 @@
     </footer>
 
     <!-- /JavaScript File(s)-->
-    <script src="main.js"></script>
+    <script src="js/challenges_list.js"></script>
+    <script src="js/note_list.js"></script>
+    <script src="js/team_list.js"></script>
+    <script src="js/footer.js"></script>
   </body>
 </html>

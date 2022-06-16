@@ -1,0 +1,64 @@
+:root {
+    --pg-background-clr: #8e1f28;
+    --pg-header-text-clr: #591c21;
+    --pg-link-clr: #043e3e;
+    --pg-link-after-color: hsl(0, 71%, 50%);
+    --pg-link-hover-clr: hsl(0, 0%, 95%);
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--pg-background-clr);
+}
+
+h1 {
+    padding: 8px;
+    color: var(--pg-header-text-clr);
+}
+
+.indent {
+    text-indent: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    color: var(--pg-link-clr);
+}
+
+a::after {
+    color: var(--pg-link-after-color)
+}
+
+a:hover {
+    background-color: var(--pg-link-hover-clr);
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+#portfolio-list {
+    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-content: center;
+    justify-items: center;
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 20px;
+}

@@ -1,2 +1,0 @@
-showHikeList()
-showHikeList()
