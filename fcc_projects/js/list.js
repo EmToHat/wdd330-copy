@@ -1,7 +1,7 @@
 const myLinks = [
     {
       label: "Color Generator",
-      url: "/portfolio/projects/freecodecamp/vanilla/color-flipper",
+      url: "/fcc_projects/color-flipper/index.html",
     }
   ];
   

@@ -1,16 +1,16 @@
 const myTeamLinks = [
     {
       label: "Free Code Camp Projects",
-      url: "../wdd330/portfolio/projects/freecodecamp/index.html",
+      url: "/fcc_projects/index.html",
     },
     {
       label: "Team Activities",
-      url: "../wdd330/portfolio/projects/team/index.html",
+      url: "/team_weekly_projects/index.html",
     }
   ];
-  
+
   // HTML id: portfolio-list
-  let myUnorderedTeamList = document.querySelector("#team-list");
+  let myUnorderedTeamList = document.querySelector("#activity-list");
   
   for (let i = 0; i < myTeamLinks.length; i++) {
     // Create Elements
