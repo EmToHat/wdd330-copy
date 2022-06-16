@@ -1,7 +1,7 @@
 const myChallegeLinks = [
   {
     label: "To-Do List",
-    url: "/challenges/todo/index.html",
+    url: "../wdd330/challenges/todo/index.html",
   }
 ];
 
