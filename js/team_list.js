@@ -1,6 +1,6 @@
 const myTeamLinks = [
     {
-      label: "Free Code Camp Projects",
+      label: "FCC Activities",
       url: "../wdd330/fcc_projects/index.html",
     },
     {

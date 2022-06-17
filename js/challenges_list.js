@@ -1,7 +1,7 @@
 const myChallegeLinks = [
   {
     label: "To-Do List",
-    url: "../wdd330/challenges/todo/index.html",
+    url: "/challenges/todo/index.html",
   }
 ];
 
@@ -18,6 +18,7 @@ for (let i = 0; i < myChallegeLinks.length; i++) {
 
   // Set Attribute
   anchorElement.setAttribute("href", myChallegeLinks[i].url);
+  anchorElement.setAttribute("target", "_blank");
 
   // Append Elements
   listElement.appendChild(anchorElement);

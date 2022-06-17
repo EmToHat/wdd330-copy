@@ -1,0 +1,123 @@
+/*
+=============== 
+Variables
+===============
+*/
+:root {
+    
+    /* Header */
+    --title-font-clr: hsl(209, 61%, 16%);
+    --nav-header-clr: hsl(81, 75%, 56%);
+
+    /* Main */
+    --link-font-clr: hsl(81, 75%, 56%);
+    --bg-containers-clr: hsl(209, 72%, 65%);
+    --body-bg-clr: hsl(0, 0%, 100%);
+
+
+    /* Link Colors */
+    
+
+    /* Type Font */
+    --ff-primary: "Oswald", sans-serif;
+    --ff-secondary: "Open Sans", sans-serif;
+  
+    --transition: all 0.3s linear;
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --max-width: 1170px;
+    --fixed-width: 620px;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: var(--ff-primary);
+    background: var(--body-bg-clr);
+    color: var(--title-font-clr);
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.notes-container,
+.challenge-container,
+.activity-container
+{
+    background-color: var(--bg-containers-clr);
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: var(--ff-primary);
+}
+
+h1,
+h2 {
+    color: var(--title-font-clr);
+}
+
+li {
+    padding: 8px;
+}
+
+a {
+    color: var(--link-font-clr);
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: var(--link-font-clr);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+main {
+    min-height: 100vh;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+nav {
+    background: var(--nav-header-clr);
+    height: 5rem;
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    box-shadow: var(--dark-shadow);
+    text-align: center;
+}
+
+footer {
+    background: var(--nav-header-clr);
+    height: 5rem;
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}

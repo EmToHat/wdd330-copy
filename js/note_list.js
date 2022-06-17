@@ -1,51 +1,51 @@
 const myNotesLinks = [
   {
     label: "Week 01",
-    url: "../wdd330/notes/week01/index.html",
+    url: "/notes/week01/index.html",
   },
   {
     label: "Week 02",
-    url: "../wdd330/notes/week02/index.html",
+    url: "/notes/week02/index.html",
   },
   {
     label: "Week 03",
-    url: "../wdd330/notes/week03/index.html",
+    url: "/notes/week03/index.html",
   },
   {
     label: "Week 04",
-    url: "../wdd330/notes/week04/index.html",
+    url: "/notes/week04/index.html",
   },
   {
     label: "Week 05",
-    url: "../wdd330/notes/week05/index.html",
+    url: "/notes/week05/index.html",
   },
   {
     label: "Week 06",
-    url: "../wdd330/notes/week06/index.html",
+    url: "/notes/week06/index.html",
   },
   {
     label: "Week 07",
-    url: "../wdd330/notes/week07/index.html",
+    url: "/notes/week07/index.html",
   },
   {
     label: "Week 08",
-    url: "../wdd330/notes/week08/index.html",
+    url: "/notes/week08/index.html",
   },
   {
     label: "Week 09",
-    url: "../wdd330/notes/week09/index.html",
+    url: "/notes/week09/index.html",
   },
   {
     label: "Week 10",
-    url: "../wdd330/notes/week10/index.html",
+    url: "/notes/week10/index.html",
   },
   {
     label: "Week 11",
-    url: "../wdd330/notes/week11/index.html",
+    url: "/notes/week11/index.html",
   },
   {
     label: "Week 12",
-    url: "../wdd330/notes/week12/index.html",
+    url: "/notes/week12/index.html",
   },
 ];
 
@@ -62,6 +62,7 @@ for (let i = 0; i < myNotesLinks.length; i++) {
 
   // Set Attribute
   anchorElement.setAttribute("href", myNotesLinks[i].url);
+  anchorElement.setAttribute("target", "_blank");
 
   // Append Elements
   listElement.appendChild(anchorElement);
