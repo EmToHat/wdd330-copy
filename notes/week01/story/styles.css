@@ -1,0 +1,11 @@
+button {
+    margin: 10px;
+}
+
+textarea {
+    width: 800px;
+    height: 250px;
+    background-color: lightyellow;
+    margin: 10px;
+    padding: 10px;
+}

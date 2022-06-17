@@ -23,24 +23,65 @@
     <nav>
       <div class="nav-center">
         <h1>Week 01</h1>
-        <ul class="nav-links">
-          <li><a href="/notes/week02/index.html" target="_blank">Week02</a></li>
-        </ul>
       </div>
     </nav>
 
     <!-- /Main-->
     <main>
-      <p>Notes go here...</p>
+      <div class="topic assigned-reading">
+        <h2>Readings</h2>
+        <p>
+          Doing Stuff with Web Things | 2.3 (CH2 SEC3) p35
+        </p>
+      </div>
+
+      <div class="topic">
+        <h2>Local Storage</h2>
+        <p>
+          Writing an application means that you are communicating with a user. 
+          <br><br>
+          True communication should be bidirectional. The user should be able to communiate to you.
+          <br><br>
+          The localStorage object allows you to save key/value pairs in the browser.
+          <br><br>
+          Syntax:
+          <br>
+          localStorage.setItem("lastname", "Smith");
+          <br>
+          localStorage.getItem("lastname");
+          <br><br>
+          localStorage object will store data w/no expiration date. The data stored won't delete when the browser is closed.
+          <br><br>
+          If you want to remove data from localStorage, you use removeItem(key). If you want to clear the local storage you would use, localStorage.clear();
+        </p>
+      </div>
+
+      <div class="topic activity">
+        <h2>Activity</h2>
+        <div class="activity">
+          Activity | <a href="/notes/week01/story/index.html">Story</a>
+        </div>
+      </div>
+
+      <div class="topic questions">
+        <h2>Q/A</h2>
+        <p>
+          Q: How can I store data so it isn't lost when the application stops?
+          <br><br>
+          Q: How do I get data back into my application once it has been stored?
+          <br><br>
+          Q: What can I do to allow the user to communicate?
+        </p>
+      </div>
     </main>
 
     <!-- /Footer-->
     <footer>
-      <p>&copy;<span id="year"></span> | Emilee Hatch | BYU-Idaho | Course WDD330</p>
+      <p>&copy;<span id="year"></span> | Emilee Hatch | BYU-Idaho - WDD330</p>
       <p>Last Update: <span id="modified"></span></p>
     </footer>
 
     <!-- /Javascript -->
-    <script src="template/template.js"></script>
+    <script src="/notes/js/app.js"></script>
   </body>
 </html>

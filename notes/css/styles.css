@@ -1,0 +1,14 @@
+:root {
+    --ff-primary: "Oswald", sans-serif;
+    --ff-secondary: "Open Sans", sans-serif;
+}
+
+.topic {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+
+body {
+    font-family: var(--ff-primary);
+}

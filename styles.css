@@ -50,13 +50,13 @@ body {
 
 ul {
     list-style-type: none;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    text-align: center;
 }
 
 .notes-container,
 .challenge-container,
-.activity-container
+.team-activity-container,
+.freecodecamp-activity-container
 {
     background-color: var(--bg-containers-clr);
     padding: 10px;
@@ -109,7 +109,7 @@ nav {
     padding: 10px;
     display: grid;
     align-items: center;
-    box-shadow: var(--dark-shadow);
+    /*box-shadow: var(--dark-shadow);*/
     text-align: center;
 }
 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- /CSS File(s) -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Story Writer</title>
+</head>
+<body>
+    <!-- /Header -->
+    <header>
+        <h1>Story Editor</h1>
+    </header>
+
+    <!-- /Main -->
+    <main>
+        <div class="title">
+            Story Name: <input id="name_input"></input>
+        </div>
+
+        <div class="buttons">
+            <button onclick="loadStory()">Find & Edit Story</button>
+            <button onclick="saveStory()">Save Story</button>
+            <button onclick="displayStory()">Display Story</button>
+        </div>
+
+        <div class="textarea">
+            <textarea id="story_editor" placeholder="Awesome story goes here..."></textarea>
+        </div>
+
+        <div id="story_display"></div>
+    </main>
+
+    <!-- /Footer -->
+    <footer>
+        <p>&copy;<span id="year"></span> | Emilee Hatch | BYU-Idaho - WDD330</p>
+        <p>Last Update: <span id="modified"></span></p>
+    </footer>
+
+    <!-- /JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
