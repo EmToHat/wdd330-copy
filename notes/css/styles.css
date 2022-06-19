@@ -1,14 +1,31 @@
 :root {
     --ff-primary: "Oswald", sans-serif;
     --ff-secondary: "Open Sans", sans-serif;
+    --text-clr: hsl(209, 61%, 16%);
+    --span-text-clr: hsl(81, 75%, 56%);
+    --topic-box-clr: hsl(209, 72%, 65%);
+    --notes-header-box-clr: hsl(81, 75%, 56%);
+    --body-bg-clr: hsl(0, 0%, 100%);
+}
+
+nav, footer {
+    background: var(--notes-header-box-clr);
+    padding: 10px;
+    display: grid;
+    text-align: center;
 }
 
 .topic {
-    background-color: antiquewhite;
+    background-color: var(--topic-box-clr);
     padding: 10px;
     margin: 10px;
 }
 
 body {
     font-family: var(--ff-primary);
+    color: var(--text-clr);
+}
+
+.notes {
+    color: var(--span-text-clr);
 }

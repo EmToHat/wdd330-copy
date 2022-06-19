@@ -21,36 +21,160 @@
   <body>
     <!-- /Nav -->
     <nav>
-      <div class="nav-center">
-        <h1>Week 09</h1>
-      </div>
+      <h1>Week 09</h1>
     </nav>
 
     <!-- /Main-->
     <main>
       <div class="topic assigned-reading">
         <h2>Readings</h2>
-        <p>JavaScript: Novice to Ninja | CH2, CH3, CH4</p>
+        <p>JavaScript: Novice to Ninja | CH9, CH14</p>
+        <p>Activity: Modern Front End Dev. Workflow</p>
       </div>
 
       <div class="topic">
-        <h2>Topic</h2>
+        <h2>CH9 | The Window Object</h2>
         <p>
-          info here..
+          <span class="notes">The Browser Object Model</span>
+          <br>
+          Every JavaScript environment has a global object. Any variables that are created in the global scope are actually properties of this object, and any functions are methods of it. In a browser environment the global object is the window object, which represents the browser window that contains a web page.
+          <br><br>
+          The Browser Object Model (or BOM for short) is a collection of properties and methods that contain information about the browser and computer screen. 
+          <br><br>
+          popup window
+          <br>
+          window.alert("hello");
+          <br>
+          window.confirm("Do you wish to continue?");
+          <br>
+          window.prompt("Please enter your name: ");
+        </p>
+
+        <p>
+          <span class="notes">Browser Information</span>
+          <br>
+          The window object has a number of properties and methods that provide information about the user’s browser.
+        </p>
+
+        <p>
+          <span class="notes">The Browser History</span>
+          <br>
+          The window.history property can be used to access information about any previously visited pages in the current browser session.
+          <br><br>
+          The window.history.length property shows how many pages have been visited before arriving at the current page.
+          <br><br>
+          The window.history.go() method can be used to go to a specific page, where 0 is the current page:
+          <br><br>
+          window.history.forward()
+          <br>
+          window.history.back()
+        </p>
+
+        <p>
+          <span class="notes">Controlling Windows</span>
+          <br>
+          A new window can be opened using the window.open() method. This takes the URL of the page to be opened as its first parameter, the window title as its second parameter, and a list of attributes as the third parameter. This can also be assigned to a variable, so the window can then be referenced later in the code.
+        </p>
+
+        <p>
+          <span class="notes">Screen Information</span>
+          <br>
+          The window.screen object contains information about the screen the browser is displayed on. You can find out the height and width of the screen in pixels using the height and width properties respectively.
+          <br><br>
+          window.screen.height
+          <br>
+          window.screen.width
+          <br><br>
+          The availHeight and availWidth can be used to find the height and width of the screen, excluding any operating system menus.
+          <br><br>
+          window.screen.availWidth
+          <br>
+          window.screen.availHeight
+          <br><br>
+          The colorDepth property can be used to find the color bit depth of the user’s monitor, although there are few use cases for doing this other than collecting user statistics.
+        </p>
+
+        <p>
+          <span class="notes">The Document Object</span>
+          <br>
+          Each window object contains a document object. This object has properties and methods that deal with the page that has been loaded into the window. In Chapter 6, we covered the Document Object Model and the properties and methods used to manipulate items on the page. The document object contains a few other methods that are worth looking at.
+          <br><br>
+          document.write('Hello, world!');
+        </p>
+
+        <p>
+          <span class="notes">Timing Functions</span>
+          <br>
+          The window object provides some useful methods for scheduling the execution of a function, and for repeatedly executing functions at regular intervals.
+          <br><br>
+          The window.setTimeout() method accepts a callback to a function as its first parameter and a number of milliseconds as its second parameter.
+        </p>
+
+        <p>
+          <span class="notes">setInterval()</span>
+          <br>
+          The window.setInterval() method works in a similar way to window.setTimeout(), except that it will repeatedly invoke the callback function after every given number of milliseconds.
+        </p>
+
+        <p>
+          <span class="notes">Animation</span>
+          <br>
+          The setTimeOut() and setInterval() methods can be used to animate elements on a web page. As an example, let’s create a web page that shows a colored square, and make it rotate. Create a folder called animation that contains files called index.html, styles.css and main.js.
+        </p>
+      </div>
+
+      <div class="topic">
+        <h2>CH14 | HTML5 APIs</h2>
+        <p>
+          <span class="notes">HTML5</span>
+          <br>
+          The W3C plans to develop future versions of HTML5 much more frequently than previously, using smaller version increments. HTML 5.1 has already become the latest standard, and HTML 5.2 is in development. You can read more about the new features in HTML5.1 and what to expect in HTML 5.2 in this post on SitePoint.
+          <br><br>
+          The W3C plans to develop future versions of HTML5 much more frequently than previously, using smaller version increments. HTML 5.1 has already become the latest standard, and HTML 5.2 is in development. You can read more about the new features in HTML5.1 and what to expect in HTML 5.2 in this post on SitePoint.
+        </p>
+
+        <p>
+          <span class="notes">The data- Attribute</span>
+          <br>
+          The data- attribute is a way of embedding data in a web page using custom attributes that are ignored by the browser. They’re also private to a page, so are not intended to be used by an external service – their sole purpose is to be used by a JavaScript program. This means they’re perfect for adding data that can be used as a hook that the program utilizes to access information about a particular element on the page.
+        </p>
+
+        <p>
+          <span class="notes">HTML5 APIs</span>
+          <br>
+          The HTML5 specification contains a number of APIs that help to gain access to hardware, such as cameras, batteries, geolocation, and the graphics card. Hardware evolves quickly, and APIs are frequently introduced to give developers access, and control new features that appear in the latest devices.
+        </p>
+
+        <p>
+          <span class="notes">Other APIs</span>
+          <br>
+          The list of APIs is constantly growing, and includes APIs for accessing a device’s camera, uploading files, accessing the battery status, handling push notifications, building drag-and-drop functionality, creating 3D effects with WebGL, and many more! A comprehensive list of HTML5 APIs can be found at the Mozilla Developer Network.
+        </p>
+
+        <p>
+          <span class="notes">Drawing w/Canvas</span>
+          <br>
+          The canvas element was introduced to allow graphics to be drawn onto a web page in real time using JavaScript. A canvas element is a rectangular element on the web page. It has a coordinate system that starts at (0,0) in the top-left corner. To add a canvas element to a page, the canvas tag is used specifying a height and width. Anything placed inside the tag will only display if the canvas element is unsupported.
+        </p>
+
+        <p>
+          <span class="notes">Shims and Polyfills</span>
+          <br>
+          HTML5 APIs progress at a rapid rate ― new APIs are constantly being introduced, and existing APIs often change. Modern browsers are very quick to update and implement many of the changes, but you can’t always guarantee that users will have the most up-to-date browser. This is where a shim or a polyfill comes in handy. These are libraries of code that allow you to use the APIs as usual. They then fill in the necessary code that's not provided natively by the user’s browser.
         </p>
       </div>
 
       <div class="topic activity">
         <h2>Activity</h2>
         <div class="activity">
-          Activity | <a href="#">Link</a>
+          CH09 | <a href="animation/index.html">Animation</a>
         </div>
       </div>
 
       <div class="topic questions">
         <h2>Q/A</h2>
         <p>
-          Q: How to add to an array?
+          Q: What types of APIs are there?
         </p>
       </div>
     </main>

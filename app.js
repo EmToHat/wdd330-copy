@@ -2,51 +2,51 @@
 const notes_links = [
   {
     label: "Week 01",
-    url: "../notes/week01/index.html",
+    url: "/wdd330/notes/week01/index.html",
   },
   {
     label: "Week 02",
-    url: "../notes/week02/index.html",
+    url: "/wdd330/notes/week02/index.html",
   },
   {
     label: "Week 03",
-    url: "../notes/week03/index.html",
+    url: "/wdd330/notes/week03/index.html",
   },
   {
     label: "Week 04",
-    url: "../notes/week04/index.html",
+    url: "/wdd330/notes/week04/index.html",
   },
   {
     label: "Week 05",
-    url: "../notes/week05/index.html",
+    url: "/wdd330/notes/week05/index.html",
   },
   {
     label: "Week 06",
-    url: "../notes/week06/index.html",
+    url: "/wdd330/notes/week06/index.html",
   },
   {
     label: "Week 07",
-    url: "../notes/week07/index.html",
+    url: "/wdd330/notes/week07/index.html",
   },
   {
     label: "Week 08",
-    url: "../notes/week08/index.html",
+    url: "/wdd330/notes/week08/index.html",
   },
   {
     label: "Week 09",
-    url: "../notes/week09/index.html",
+    url: "/wdd330/notes/week09/index.html",
   },
   {
     label: "Week 10",
-    url: "../notes/week10/index.html",
+    url: "/wdd330/notes/week10/index.html",
   },
   {
     label: "Week 11",
-    url: "../notes/week11/index.html",
+    url: "/wdd330/notes/week11/index.html",
   },
   {
     label: "Week 12",
-    url: "../notes/week12/index.html",
+    url: "/wdd330/notes/week12/index.html",
   },
 ];
 
@@ -76,7 +76,7 @@ for (let i = 0; i < notes_links.length; i++) {
 const challenges_links = [
   {
     label: "To-Do List",
-    url: "../challenges/todo/index.html",
+    url: "/wdd330/challenges/todo/index.html",
   },
 ];
 
@@ -106,43 +106,43 @@ for (let i = 0; i < challenges_links.length; i++) {
 const team_links = [
   {
     label: "Week 02 | Numbers Activity",
-    url: "../team_activities/week02/index.html",
+    url: "/wdd330/team_activities/week02/index.html",
   },
   {
     label: "Week 03 | Array Activity",
-    url: "../team_activities/week03/index.html",
+    url: "/wdd330/team_activities/week03/index.html",
   },
   {
     label: "Week 04 | Tic-Tac-Toe Activity",
-    url: "../team_activities/week04/index.html",
+    url: "/wdd330/team_activities/week04/index.html",
   },
   {
     label: "Week 05 | Great Hikes Activity",
-    url: "../team_activities/week05/index.html",
+    url: "/wdd330/team_activities/week05/index.html",
   },
   {
     label: "Week 07 | Comments Activity",
-    url: "../team_activities/week07/index.html",
+    url: "/wdd330/team_activities/week07/index.html",
   },
   {
     label: "Week 08 | Remote API Activity",
-    url: "../team_activities/week08/index.html",
+    url: "/wdd330/team_activities/week08/index.html",
   },
   {
     label: "Week 09 | DrumKit Activity",
-    url: "../team_activities/week09/index.html",
+    url: "/wdd330/team_activities/week09/index.html",
   },
   {
     label: "Week 10 | Activity",
-    url: "../team_activities/week10/index.html",
+    url: "/wdd330/team_activities/week10/index.html",
   },
   {
     label: "Week 11 | Activity",
-    url: "../team_activities/week11/index.html",
+    url: "/wdd330/team_activities/week11/index.html",
   },
   {
     label: "Week 12 | Activity",
-    url: "../team_activities/week12/index.html",
+    url: "/wdd330/team_activities/week12/index.html",
   },
 ];
 
@@ -172,7 +172,7 @@ for (let i = 0; i < team_links.length; i++) {
 const fcc_links = [
   {
     label: "Color Randomizer",
-    url: "../free_code_camp/color-flipper/index.html",
+    url: "/wdd330/free_code_camp/color-flipper/index.html",
   },
 ];
 
