@@ -232,10 +232,104 @@
         </p>
       </div>
 
+      <div class="topic">
+        <h2>CH14 | HTML5 APIs</h2>
+        <p>
+          <span class="notes">HTML5</span>
+          <br />
+          The W3C plans to develop future versions of HTML5 much more frequently
+          than previously, using smaller version increments. HTML 5.1 has
+          already become the latest standard, and HTML 5.2 is in development.
+          You can read more about the new features in HTML5.1 and what to expect
+          in HTML 5.2 in this post on SitePoint.
+          <br /><br />
+          The W3C plans to develop future versions of HTML5 much more frequently
+          than previously, using smaller version increments. HTML 5.1 has
+          already become the latest standard, and HTML 5.2 is in development.
+          You can read more about the new features in HTML5.1 and what to expect
+          in HTML 5.2 in this post on SitePoint.
+        </p>
+
+        <p>
+          <span class="notes">The data- Attribute</span>
+          <br />
+          The data- attribute is a way of embedding data in a web page using
+          custom attributes that are ignored by the browser. They’re also
+          private to a page, so are not intended to be used by an external
+          service – their sole purpose is to be used by a JavaScript program.
+          This means they’re perfect for adding data that can be used as a hook
+          that the program utilizes to access information about a particular
+          element on the page.
+        </p>
+
+        <p>
+          <span class="notes">HTML5 APIs</span>
+          <br />
+          The HTML5 specification contains a number of APIs that help to gain
+          access to hardware, such as cameras, batteries, geolocation, and the
+          graphics card. Hardware evolves quickly, and APIs are frequently
+          introduced to give developers access, and control new features that
+          appear in the latest devices.
+        </p>
+
+        <p>
+          <span class="notes">Other APIs</span>
+          <br />
+          The list of APIs is constantly growing, and includes APIs for
+          accessing a device’s camera, uploading files, accessing the battery
+          status, handling push notifications, building drag-and-drop
+          functionality, creating 3D effects with WebGL, and many more! A
+          comprehensive list of HTML5 APIs can be found at the Mozilla Developer
+          Network.
+        </p>
+
+        <p>
+          <span class="notes">Drawing w/Canvas</span>
+          <br />
+          The canvas element was introduced to allow graphics to be drawn onto a
+          web page in real time using JavaScript. A canvas element is a
+          rectangular element on the web page. It has a coordinate system that
+          starts at (0,0) in the top-left corner. To add a canvas element to a
+          page, the canvas tag is used specifying a height and width. Anything
+          placed inside the tag will only display if the canvas element is
+          unsupported.
+        </p>
+
+        <p>
+          <span class="notes">Shims and Polyfills</span>
+          <br />
+          HTML5 APIs progress at a rapid rate ― new APIs are constantly being
+          introduced, and existing APIs often change. Modern browsers are very
+          quick to update and implement many of the changes, but you can’t
+          always guarantee that users will have the most up-to-date browser.
+          This is where a shim or a polyfill comes in handy. These are libraries
+          of code that allow you to use the APIs as usual. They then fill in the
+          necessary code that's not provided natively by the user’s browser.
+        </p>
+      </div>
+
+      <div class="topic">
+        <h2>Managing the Modern Front-End Workflow</h2>
+        <p>
+          Development workflow has become quite complicated for Web development.
+          <br><br>
+          Medium Sized Project: it could have dozens of js files, css files, libraries, icons, images, etc. 
+          <br><br>
+          1. Package Managers: These keep track of all of the external dependencies for our app. Both development tools and libraries we might be using. It knows not only which packages to download...but tracks versions as well. We are using npm for our package manager.
+          <br>
+          2. Bundlers: bundlers handle the compiling, transpiling, concatinating, minifying, and moving around of assets in our project. We are using Parcel as our bundler. Another common bundler is Webpack
+          <br>
+          3. Task managers: these keep track of what needs to be done and when. There will generally be scripts defined in the task manager for each phase of development. Our project is fairly simple so we are just using npm again for task manager. Other common managers are Grunt or Gulp
+        </p>
+      </div>
+
       <div class="topic activity">
         <h2>Activity</h2>
         <div class="activity">
           CH09 | <a href="animation/index.html">Animation</a>
+        </div>
+        <div class="activity">
+          Modern Workflow | <a href="parcel/">Animation</a>
         </div>
       </div>
 
