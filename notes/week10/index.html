@@ -7,6 +7,7 @@
 
     <!-- /CSS File(s) -->
     <link rel="stylesheet" href="/wdd330/notes/css/styles.css" />
+    <link rel="stylesheet" href="/notes/css/styles.css" />
 
     <!-- /Font File(s)-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,13 +31,82 @@
     <main>
       <div class="topic assigned-reading">
         <h2>Readings</h2>
-        <p>JavaScript: Novice to Ninja | CH2, CH3, CH4</p>
+        <p>MDN: Validating Forms | Using Fetch</p>
       </div>
 
       <div class="topic">
-        <h2>Topic</h2>
+        <h2>Validating Forms</h2>
         <p>
-          info here..
+          <span class="notes">Client-side Form Validation</span>
+          <br>
+          Before submitting data to the server, ensure that all required form controls are properly filled out in the correct format. 
+          <br><br>
+          This form helps to ensure that the data submitted will match the requirements made by the various form controls.
+        </p>
+
+        <p>
+          <span class="notes">Client-side Validation</span>
+          <br>
+          Is an initial check and is an important feature of good UI (user experience). It catches invalid data on the client-side, which the user can fix straight away.
+          <br><br>
+          If the data gets to the server-side, it will be rejected and cause a delay going on a round trip to the server and back to the client side.
+          <br><br>
+          Client-side validation shouldn't be considered as an exhaustive security measure. My Apps should ALWAYS perform security checks on any form-submitted data both on server-side and client-side. 
+          <br><br>
+          Client-side validation is easy to bypass, so it is easy for malicious users to send bad data to the server.
+        </p>
+
+        <p>
+          <span class="notes">Form Validation, what is it?</span>
+          <br>
+          e.g. Registration Form, the user will recieve feedback when data was entered incorrectly. Messages could be: "This field is required", "Please enter your phone number in the format xxx-xxxx", "Please enter a valid email address", "Your password needs to be between 8 and 30 characters long and contain one uppercase letter, one symbol, and a number."
+          <br><br>
+          These are called form validation. When the user enters data, the browser/or web server will check to see if the entered data is correct and will let the user know, especially if the data is incorrect.
+          <br><br>
+          Client-side Validation: It is validation done in the browser.
+          <br><br>
+          Server-side Validation: It is validation done on the server.
+        </p>
+
+        <p>
+          <span class="notes">Forms</span>
+          <br>
+          As web developers we want to make filling out web forms as easy as possible for our users. So why is do we insist on validating those forms?
+          <br><br>
+          There are three MAIN reasons:
+          <br>
+          1. We want to get the right data, in the right format.
+          <br>
+          2. We want to protect our users' data.
+          <br>
+          3.We want to protect ourselves.
+          <br><br>
+          NEVER TRUST data passed to the server from the client. This includes if the form is validating correctly, a malicious user can stil alter the network request.
+        </p>
+
+        <p>
+          <span class="notes">Client-Side Types</span>
+          <br>
+          Client-side has two types: Built-in form validation, and JavaScript.
+          <br><br>
+          Built-in form validation: uses HTML5 form validation features, this type of validation doesn't usually require too much JS. The built-in form validation has better performance than JS, but it isn't as customizable.
+          <br><br>
+          JS form validation: is coded using JS. It is completely customizable, but you need to create all the validation or use a library. 
+        </p>
+
+        <p>
+          <span class="notes">Built-in form Validation</span>
+          <br>
+          required, minlength, maxlength, min, max, type, pattern
+          <br><br>
+          <a href="/notes/week10/builtin_form_validation/fruit_start.html">e.g. link</a>
+        </p>
+      </div>
+
+      <div class="topic">
+        <h2>Using Fetch</h2>
+        <p>
+          The Fetch API allows a JS interface to access and manipulate parts of the HTTP pipline like requests and responses. 
         </p>
       </div>
 
@@ -50,7 +120,11 @@
       <div class="topic questions">
         <h2>Q/A</h2>
         <p>
-          Q: How to add to an array?
+          Q: What is form validation?
+          <br>
+          Q: Why do we validate forms?
+          <br>
+          Q: What are the different client-side types?
         </p>
       </div>
     </main>
@@ -63,5 +137,6 @@
 
     <!-- /Javascript -->
     <script src="/wdd330/notes/js/app.js"></script>
+    <script src="/notes/js/app.js"></script>
   </body>
 </html>
