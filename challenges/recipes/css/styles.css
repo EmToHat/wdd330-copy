@@ -1,0 +1,71 @@
+:root {
+  --nav-bar-bg-clr: rgb(255, 255, 255);
+  --headers-text-clr: rgb(169,46,48);
+  --text-clr-1: rgb(255, 255, 255);
+  --text-clr-2: rgb(36, 34, 34);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../imgs/wallpaper.jpg');
+  background-repeat:repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+
+  color: var(--text-clr);
+  font-family: 'Comfortaa', Arial, Tahoma;
+}
+
+nav {
+  background-color: var(--nav-bar-bg-clr);
+  color: var(--headers-text-clr);
+  padding: 15px;
+  font-size: 30px;
+}
+
+main, footer {
+  padding: 15px;
+}
+
+.search {
+  background-color: var(--nav-bar-bg-clr);
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.search h2 {
+  color: var(--headers-text-clr);
+  padding: 10px;
+}
+
+.search input {
+  width: 75%;
+  height: 30px;
+  background-color: var(--headers-text-clr);
+  border-style: none;
+  padding: 10px;
+  color: var(--text-clr-1);
+  font-size: large;
+}
+
+.search input::placeholder {
+  color: var(--text-clr-1);
+  font-size: large;
+}
+
+ion-icon {
+  font-size: 35px;
+  color: var(--headers-text-clr);
+}
+
+
+/*img {
+  width: 100%;
+  height: auto;
+}*/

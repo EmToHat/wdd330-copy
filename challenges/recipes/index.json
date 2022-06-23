@@ -1,0 +1,75 @@
+{
+    "recipes": [
+        {"recipe": {
+            "name": "Basic Crepes",
+            "prep time": "10 mins",
+            "cook time": "20 mins",
+            "total time": "30 mins",
+            "servings": "4",
+            "ingredients": "1 cup all-purpose flour, 2 eggs, 1/2 cup milk, 1/2 cup water, 1/4 teaspoon salt, 2 tablespoons butter (melted).",
+            "instructions": [
+                {
+                    "step 1": "In a large mixing bowl, whisk together the flour and the eggs. Gradually add in the milk and water, stirring to combine. Add the salt and butter; beat until smooth.",
+                    "step 2": "Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each crepe. Tilt the pan with a circular motion so that the batter coats the surface evenly.",
+                    "step 3": "Cook the crepe for about 2 minutes, until the bottom is light brown. Loosen with a spatula, turn and cook the other side. Serve hot."
+                }
+            ],
+            "category": "Breakfast",
+            "imageurl":"https://github.com/emt0rres/wdd330/challenges/recipes/imgs/basic_crepes.jpg"
+            }
+        },
+        {"recipe": {
+            "name": "Peanut Butter Banana Smoothie",
+            "prep time": "5 mins",
+            "cook time": "0 mins",
+            "total time": "5 mins",
+            "servings": "4",
+            "ingredients": "2 bananas (cut up), 2 cups milk, 1/2 cup peanut butter, 2 tablespoons honey (or to taste), 2 cups ice cubes.",
+            "instructions": [
+                {
+                    "step 1": "Place bananas, milk, peanut butter, honey, and ice cubes in a blender; blend until smooth, about 30 seconds."
+                }
+            ],
+            "category": "Breakfast",
+            "imageurl":"https://github.com/emt0rres/wdd330/challenges/recipes/imgs/smoothie.jpg"
+            }
+        },
+        {"recipe": {
+            "name": "Carne Asada Breakfast Burrito",
+            "prep time": "15 mins",
+            "cook time": "35 mins",
+            "total time": "50 mins",
+            "servings": "4",
+            "ingredients": "2 pounds beef skirt steak, cut into thin strips, 2 tablespoons carne asada seasoning, 1 tablespoon garlic powder, 1 tablespoon vegetable oil, ½ sweet onion, diced, 1 red bell pepper, seeded and chopped, 1 jalapeno pepper, seeded and diced, 1 (14.5 ounce) can Hunt's® Diced Tomatoes, drained, 2 cups frozen diced potatoes, salt and pepper to taste, 3 tablespoons butter, divided, 6 eggs, whisked, 2 cups shredded Mexican cheese blend, 4 (12 inch) flour tortillas",
+            "instructions": [
+                {
+                    "step 1": "Place beef slices in a mixing bowl. Sprinkle with asada seasoning and garlic powder; toss in bowl to evenly coat. Let marinade 5 minutes.",
+                    "step 2": "Heat oil in a large, deep skillet over medium-high heat. Place beef strips in skillet and cook and stir until browned. Stir in bell pepper, onions, and jalapeno pepper. Add tomatoes and potatoes. Cook mixture until potatoes are tender, 5 to 8 minutes. Season with salt and pepper. Transfer mixture to a bowl.",
+                    "step 3": "Melt 1 tablespoon butter in the same skillet. Add the eggs, stirring occasionally, until eggs are scrambled and set. Transfer the beef mixture back to skillet. Cook and stir until warmed through, about 2 minutes. Melt the remaining 2 tablespoons butter in a small dish in microwave.",
+                    "step 4": "Divide shredded cheese among tortillas; divide beef and veggie mixture and place on the cheese. Fold in sides of tortilla and roll up. Brush with melted butter and place folded side down in pan to brown; flip and brown on top side. Burrito should be warmed though."
+                }
+            ],
+            "category": "Breakfast",
+            "imageurl":"https://github.com/emt0rres/wdd330/challenges/recipes/imgs/breakfast_burrito.jpg"
+            }
+        },
+
+        {"recipe": {
+            "name": "Sunshine Morning Muesli",
+            "prep time": "10 mins",
+            "cook time": "0 mins",
+            "total time": "8 hrs 10 mins",
+            "servings": "4",
+            "ingredients": "1/4 cup rolled oats, 1/8 cup oat bran, 1 tablespoon golden raisins, 3 dried apricots, chopped, 1 pinch ground cinnamon, 1/2 cup plain yogurt, 1/4 cup milk, or as needed, 1 teaspoon chopped walnuts.",
+            "instructions": [
+                {
+                    "step 1": "In a medium bowl, mix together the oats, oat bran, raisins, apricots, and cinnamon. Stir in yogurt, cover, and refrigerate overnight.",
+                    "step 2": "In the morning, pour the milk over the muesli, and sprinkle with walnuts. You may wish to add more milk depending on your preference."
+                }
+            ],
+            "category": "Breakfast",
+            "imageurl":"https://github.com/emt0rres/wdd330/challenges/recipes/imgs/oatmeal.jpg"
+            }
+        }
+    ]
+}
