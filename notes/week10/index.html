@@ -98,8 +98,6 @@
           <span class="notes">Built-in form Validation</span>
           <br>
           required, minlength, maxlength, min, max, type, pattern
-          <br><br>
-          <a href="/notes/week10/builtin_form_validation/fruit_start.html">e.g. link</a>
         </p>
       </div>
 
@@ -107,14 +105,21 @@
         <h2>Using Fetch</h2>
         <p>
           The Fetch API allows a JS interface to access and manipulate parts of the HTTP pipline like requests and responses. 
+          <br><br>
+          The fetch specification differs from jQuery.ajax() in the following significant ways:
+          <br>
+          The Promise returned from fetch() won't reject on HTTP error status even if the response is an HTTP 404 or 500. 
+          <br><br>
+          <span class="notes">Basic Fetch Request</span>
+          <br>
+          fetch('http://example.com/movies.json')
+          <br>
+          .then(response => response.json())
+          <br>
+          .then(data => console.log(data));
+          <br><br>
+          The fetch() method can optionally accept a second parameter, an init object that allows you to control a number of different settings.
         </p>
-      </div>
-
-      <div class="topic activity">
-        <h2>Activity</h2>
-        <div class="activity">
-          Activity | <a href="#">Link</a>
-        </div>
       </div>
 
       <div class="topic questions">

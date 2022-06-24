@@ -78,6 +78,10 @@ const challenges_links = [
     label: "To-Do List",
     url: "/wdd330/challenges/todo/index.html",
   },
+  {
+    label: "Recipes Project",
+    url: "/wdd330/challenges/recipes/index.html",
+  },
 ];
 
 // HTML id: portfolio-list
