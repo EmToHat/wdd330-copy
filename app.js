@@ -71,6 +71,35 @@ for (let i = 0; i < notes_links.length; i++) {
 }
 
 
+/* --------------------- Other Notes List --------------------- */
+const other_notes_links = [
+  {
+    label: "JSON and AJAX",
+    url: "/wdd330/other_notes/json_ajax/index.html",
+  }
+];
+
+// HTML id: notes-list
+let ul_other_notes_links = document.querySelector("#other-notes-list");
+
+for (let i = 0; i < other_notes_links.length; i++) {
+  // Create Elements
+  let a_ele_other_notes = document.createElement("a");
+  let li_ele_other_notes = document.createElement("li");
+
+  // The textContent property sets or returns the text content of the specified node, and all its descendants. - w3schools
+  a_ele_other_notes.textContent = other_notes_links[i].label;
+
+  // Set Attribute
+  a_ele_other_notes.setAttribute("href", other_notes_links[i].url);
+  a_ele_other_notes.setAttribute("target", "_blank");
+
+  // Append Elements
+  li_ele_other_notes.appendChild(a_ele_other_notes);
+  ul_other_notes_links.appendChild(li_ele_other_notes);
+}
+
+
 
 /* --------------------- Challenge List --------------------- */
 const challenges_links = [

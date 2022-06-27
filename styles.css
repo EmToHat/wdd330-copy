@@ -56,7 +56,8 @@ ul {
 .notes-container,
 .challenge-container,
 .team-activity-container,
-.freecodecamp-activity-container
+.freecodecamp-activity-container,
+.other-notes-container
 {
     background-color: var(--bg-containers-clr);
     padding: 10px;

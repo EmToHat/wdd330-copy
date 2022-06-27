@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Roady",
+        "species": "horse",
+        "foods": {
+            "likes": ["sunflower seeds", "grain"],
+            "dislikes": ["dog food", "apples"]
+        }
+    },
+    {
+        "name": "Gary",
+        "species": "goat",
+        "foods": {
+            "likes": ["grass", "corn"],
+            "dislikes": ["bananas", "cans"]
+        }
+    },
+    {
+        "name": "Carmelo",
+        "species": "ferret",
+        "foods": {
+            "likes": ["chicken", "turkey"],
+            "dislikes": ["mangoes", "apples"]
+        }
+    }
+]

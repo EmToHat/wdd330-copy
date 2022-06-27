@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Whiskers",
+        "species": "mouse",
+        "foods": {
+            "likes": ["sunflower seeds", "rice"],
+            "dislikes": ["catnip", "kibble"]
+        }
+    },
+    {
+        "name": "Gopher",
+        "species": "hedgehog",
+        "foods": {
+            "likes": ["grass", "chicken"],
+            "dislikes": ["mice", "rice"]
+        }
+    },
+    {
+        "name": "Nunu",
+        "species": "monkey",
+        "foods": {
+            "likes": ["bananas", "mangoes"],
+            "dislikes": ["carrots", "lettuce"]
+        }
+    }
+]
