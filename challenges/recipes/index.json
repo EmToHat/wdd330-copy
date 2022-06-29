@@ -1,75 +1,318 @@
 {
-    "recipes": [
-        {"recipe": {
-            "name": "Basic Crepes",
-            "prep time": "10 mins",
-            "cook time": "20 mins",
-            "total time": "30 mins",
-            "servings": "4",
-            "ingredients": "1 cup all-purpose flour, 2 eggs, 1/2 cup milk, 1/2 cup water, 1/4 teaspoon salt, 2 tablespoons butter (melted).",
-            "instructions": [
-                {
-                    "step 1": "In a large mixing bowl, whisk together the flour and the eggs. Gradually add in the milk and water, stirring to combine. Add the salt and butter; beat until smooth.",
-                    "step 2": "Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each crepe. Tilt the pan with a circular motion so that the batter coats the surface evenly.",
-                    "step 3": "Cook the crepe for about 2 minutes, until the bottom is light brown. Loosen with a spatula, turn and cook the other side. Serve hot."
-                }
-            ],
-            "category": "Breakfast",
-            "imageurl":"https://github.com/emt0rres/wdd330/challenges/recipes/imgs/basic_crepes.jpg"
-            }
-        },
-        {"recipe": {
-            "name": "Peanut Butter Banana Smoothie",
-            "prep time": "5 mins",
-            "cook time": "0 mins",
-            "total time": "5 mins",
-            "servings": "4",
-            "ingredients": "2 bananas (cut up), 2 cups milk, 1/2 cup peanut butter, 2 tablespoons honey (or to taste), 2 cups ice cubes.",
-            "instructions": [
-                {
-                    "step 1": "Place bananas, milk, peanut butter, honey, and ice cubes in a blender; blend until smooth, about 30 seconds."
-                }
-            ],
-            "category": "Breakfast",
-            "imageurl":"https://github.com/emt0rres/wdd330/challenges/recipes/imgs/smoothie.jpg"
-            }
-        },
-        {"recipe": {
-            "name": "Carne Asada Breakfast Burrito",
-            "prep time": "15 mins",
-            "cook time": "35 mins",
-            "total time": "50 mins",
-            "servings": "4",
-            "ingredients": "2 pounds beef skirt steak, cut into thin strips, 2 tablespoons carne asada seasoning, 1 tablespoon garlic powder, 1 tablespoon vegetable oil, ½ sweet onion, diced, 1 red bell pepper, seeded and chopped, 1 jalapeno pepper, seeded and diced, 1 (14.5 ounce) can Hunt's® Diced Tomatoes, drained, 2 cups frozen diced potatoes, salt and pepper to taste, 3 tablespoons butter, divided, 6 eggs, whisked, 2 cups shredded Mexican cheese blend, 4 (12 inch) flour tortillas",
-            "instructions": [
-                {
+    "recipes": {
+        "breakfast": [
+            {
+                "recipe name" : "Cheddar and Herb Chaffle",
+                "time": {
+                    "prep": "10 mins",
+                    "cook": "5 mins",
+                    "total": "30 mins"
+                },
+                "servings": "4",
+                "ingredients": [
+                    "4 large eggs", "2 cups mild cheddar (finely shredded)", "2 scallions (thinly sliced)", "1 tablespoon fresh parsley (finely chopped)", "salt", "black pepper", "nonstick cooking spray", "unsalted butter", "maple syrup (original | sugar free)"
+                ],
+                "instructions": {
+                    "step 1": "Preheat a waffle iron to medium-high. Whisk the eggs in a large bowl until well beaten and smooth. Whisk in the Cheddar, scallions, parsley, 1/4 teaspoon salt and a few grinds of pepper.",
+                    "step 2": "Coat the waffle iron with nonstick cooking spray, then ladle a heaping 1/4 cup of batter into each section. Close the lid and cook until well browned and fluffy, 4 to 5 minutes. Use a small offset spatula or tongs to transfer the chaffles to a serving plate. Repeat with the remaining batter.",
+                    "step 3": "Top each chaffle with a pat of butter and drizzle with maple syrup."
+                },
+                "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/waffle-mae-mu-unsplash.jpg",
+                "photo by": "Mae Mu",
+                "author link": "https://unsplash.com/@picoftasty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            },
+            {
+                "recipe name" : "Muesli",
+                "time": {
+                    "prep": "10 mins",
+                    "cook": "0 mins",
+                    "total": "8 hrs 10 mins"
+                },
+                "servings": "4",
+                "ingredients": [
+                    "1/4 cup rolled oats", "1/8 cup oat bran", "1 tablespoon golden raisins", "3 dried apricots (chopped)", "1 pinch ground cinnamon", "1/2 cup plain yogurt", "1/4 cup milk (as needed)", "1 teaspoon chopped walnuts"
+                ],
+                "instructions": {
+                    "step 1": "In a medium bowl, mix together the oats, oat bran, raisins, apricots, and cinnamon. Stir in yogurt, cover, and refrigerate overnight.",
+                    "step 2": "In the morning, pour the milk over the muesli, and sprinkle with walnuts. You may wish to add more milk depending on your preference."
+                },
+                "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/muesli-lex-sirikiat-unsplash.jpg",
+                "photo by": "Lex Sirikiat",
+                "author link": "https://unsplash.com/@pundalex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            },
+            {
+                "recipe name" : "Carne Asada Breakfast Burrito",
+                "time": {
+                    "prep": "15 mins",
+                    "cook": "35 mins",
+                    "total": "50 mins"
+                },
+                "servings": "4",
+                "ingredients": [
+                    "2 pounds beef skirt steak, cut into thin strips", "2 tablespoons carne asada seasoning", "1 tablespoon garlic powder", "1 tablespoon vegetable oil", "1/2 sweet onion, diced", "1 red bell pepper (seeded and chopped)", "1 jalapeno pepper (seeded and diced)", "1 (14.5 ounce) can Hunt's® Diced Tomatoes (drained)", "2 cups frozen diced potatoes", "salt and pepper to taste", "3 tablespoons butter", "6 eggs (divided, and whisked)", "2 cups shredded Mexican cheese blend", "4 (12 inch) flour tortillas"
+                ],
+                "instructions": {
                     "step 1": "Place beef slices in a mixing bowl. Sprinkle with asada seasoning and garlic powder; toss in bowl to evenly coat. Let marinade 5 minutes.",
                     "step 2": "Heat oil in a large, deep skillet over medium-high heat. Place beef strips in skillet and cook and stir until browned. Stir in bell pepper, onions, and jalapeno pepper. Add tomatoes and potatoes. Cook mixture until potatoes are tender, 5 to 8 minutes. Season with salt and pepper. Transfer mixture to a bowl.",
                     "step 3": "Melt 1 tablespoon butter in the same skillet. Add the eggs, stirring occasionally, until eggs are scrambled and set. Transfer the beef mixture back to skillet. Cook and stir until warmed through, about 2 minutes. Melt the remaining 2 tablespoons butter in a small dish in microwave.",
                     "step 4": "Divide shredded cheese among tortillas; divide beef and veggie mixture and place on the cheese. Fold in sides of tortilla and roll up. Brush with melted butter and place folded side down in pan to brown; flip and brown on top side. Burrito should be warmed though."
-                }
-            ],
-            "category": "Breakfast",
-            "imageurl":"https://github.com/emt0rres/wdd330/challenges/recipes/imgs/breakfast_burrito.jpg"
+                },
+                "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/burrito-creative-headline-unsplash.jpg",
+                "photo by": "Creative Headline",
+                "author link": "https://unsplash.com/@creativeheadline?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            },
+            {
+                "recipe name" : "Peanut Butter Banana Smoothie",
+                "time": {
+                    "prep": "5 mins",
+                    "cook": "0 mins",
+                    "total": "5 mins"
+                },
+                "servings": "4",
+                "ingredients": [
+                    "2 bananas (cut up)", "2 cups milk", "1/2 cup peanut butter", "2 tablespoons honey (or to taste)", "2 cups ice cubes."
+                ],
+                "instructions": {
+                    "step 1": "Place bananas, milk, peanut butter, honey, and ice cubes in a blender; blend until smooth, about 30 seconds."
+                },
+                "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/banana-louis-hansel-unsplash.jpg",
+                "photo by": "Louis Hansel",
+                "author link": "https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            },
+            {
+                "recipe name" : "Basic Crepes",
+                "time": {
+                    "prep": "10 mins",
+                    "cook": "20 mins",
+                    "total": "30 mins"
+                },
+                "servings": "4",
+                "ingredients": [
+                    "1 cup all-purpose flour", "2 eggs", "1/2 cup milk", "1/2 cup water", "1/4 teaspoon salt", "2 tablespoons butter (melted)"
+                ],
+                "instructions": {
+                    "step 1": "In a large mixing bowl, whisk together the flour and the eggs. Gradually add in the milk and water, stirring to combine. Add the salt and butter; beat until smooth.",
+                    "step 2": "Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each crepe. Tilt the pan with a circular motion so that the batter coats the surface evenly.",
+                    "step 3": "Cook the crepe for about 2 minutes, until the bottom is light brown. Loosen with a spatula, turn and cook the other side. Serve hot."
+                },
+                "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/crepe-slashio-photography-unsplash",
+                "photo by": "Slashio Photography",
+                "author link": "https://unsplash.com/@slashiophotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
             }
-        },
-
-        {"recipe": {
-            "name": "Sunshine Morning Muesli",
-            "prep time": "10 mins",
-            "cook time": "0 mins",
-            "total time": "8 hrs 10 mins",
-            "servings": "4",
-            "ingredients": "1/4 cup rolled oats, 1/8 cup oat bran, 1 tablespoon golden raisins, 3 dried apricots, chopped, 1 pinch ground cinnamon, 1/2 cup plain yogurt, 1/4 cup milk, or as needed, 1 teaspoon chopped walnuts.",
-            "instructions": [
-                {
-                    "step 1": "In a medium bowl, mix together the oats, oat bran, raisins, apricots, and cinnamon. Stir in yogurt, cover, and refrigerate overnight.",
-                    "step 2": "In the morning, pour the milk over the muesli, and sprinkle with walnuts. You may wish to add more milk depending on your preference."
-                }
-            ],
-            "category": "Breakfast",
-            "imageurl":"https://github.com/emt0rres/wdd330/challenges/recipes/imgs/oatmeal.jpg"
+        ],
+        "lunch": [
+            {
+                "recipe name" : "Onigiri | Japanese Rice Balls ",
+                "time": {
+                    "prep": "20 mins",
+                    "cook": "30 mins",
+                    "total": "50 mins"
+                },
+                "servings": "4",
+                "ingredients": [
+                    "4 cups short-grain white rice (uncooked)", "4 1/2 cups water", "1 cup water", "1/4 teaspoon salt", "1/4 cup bonito shavings (dry fish flakes)", "2 sheets nori (dry seaweed | cut into 1/2-inch strips", "2 tablespoons sesame seeds"
+                ],
+                "instructions": {
+                    "step 1": "Wash the rice in a mesh strainer until the water runs clear. Combine washed rice and 4 1/2 cups water in a saucepan. Bring to a boil over high heat, stirring occasionally. Reduce heat to low; cover. Simmer rice until the water is absorbed, 15 to 20 minutes. Let rice rest, for 15 minutes to allow the rice to continue to steam and become tender. Allow cooked rice to cool.",
+                    "step 2": "Combine 1 cup water with the salt in a small bowl. Use this water to dampen hands before handling the rice. Divide the cooked rice into 8 equal portions. Use one portion of rice for each onigiri.",
+                    "step 3": "Divide one portion of rice in two. Create a dimple in the rice and fill with a heaping teaspoon of bonito flakes. Cover with the remaining portion of rice and press lightly to enclose filling inside rice ball. Gently press the rice to shape into a triangle. Wrap shaped onigiri with a strip of nori. Sprinkle with sesame seeds. Repeat to make a total of 8 onigiri."
+                },
+                "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/onigiri-max-griss-unsplash.jpg",
+                "photo by": "Max Griss",
+                "author link": "https://unsplash.com/@grisskitchen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            },
+            {
+                "recipe name" : "Daniel's Tuna Salad",
+                "time": {
+                    "prep": "5 mins",
+                    "cook": "0 mins",
+                    "total": "5 mins"
+                },
+                "servings": "4",
+                "ingredients": [
+                    "1 can tuna", "2 spoons mayo", "1 spoon olive garden salad dressing", "1 spoon onions (chopped, optional)", "wheat thins"
+                ],
+                "instructions": {
+                    "step 1": "Rinse tuna so there isn't any oil.",
+                    "step 2": "Stir tuna, mayo and olive garden dressing together, add onions if desired.",
+                    "step 3": "Eat with wheat thins or other crackers and enjoy."
+                },
+                "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/tuna-christine-isakzhanova-unsplash.jpg",
+                "photo by": "Christine Isakzhanova",
+                "author link": "https://unsplash.com/@bulochka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" 
+            },
+            {
+                "recipe name" : "Chicken Quesadillas",
+                "time": {
+                    "prep": "30 mins",
+                    "cook": "25 mins",
+                    "total": "55 mins"
+                },
+                "servings": "20",
+                "ingredients": [
+                    "1 pound chicken breast (boneless, skinless, diced)", "1 packet (1.27 ounce) fajita seasoning", "1 tablespoon vegetable oil", "2 green bell peppers (chopped)", "2 red bell peppers (chopped)", "1 onion (chopped)", "10 (10 inch) flour tortillas", "1 (8 ounce) package shredded cheddar cheese", "1 (8 ounce) package shredded monterey jack cheese", "1 tablespoon bacon bits"
+                ],
+                "instructions": {
+                    "step 1": "Preheat the broiler. Grease a baking sheet.",
+                    "step 2": "Toss chicken with fajita seasoning, then spread onto the baking sheet. Place under the broiler and cook until chicken is no longer pink in the center, about 5 minutes.",
+                    "step 3": "Preheat the oven to 350 degrees F (175 degrees C).",
+                    "step 4": "Heat oil in a large saucepan over medium heat. Stir in bell peppers, onion, and broiled chicken. Cook and stir until vegetables have softened, about 10 minutes.",
+                    "step 5": "Layer half of each tortilla with chicken and vegetable mixture, Cheddar cheese, Monterey Jack cheese, and bacon bits. Fold tortillas in half and place onto a baking sheet.",
+                    "step 6": "Bake quesadillas in the preheated oven until cheeses have melted, about 10 minutes.",
+                    "step 7": "Cut each quesadilla into 4 wedges and serve."
+                },
+                "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/quesadillas-lottie-griffiths-unsplash.jpg",
+                "photo by": "Lottie Griffiths",
+                "author link": "https://unsplash.com/@lottiegriffiths?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"  
+            },
+            {
+                "recipe name" : "Peanut Butter Noodles",
+                "time": {
+                    "prep": "15 mins",
+                    "cook": "10 mins",
+                    "total": "25 mins"
+                },
+                "servings": "4",
+                "ingredients": [
+                    "1/2 cup chicken broth", "1 1/2 tablespoons fresh ginger root (minced)", "3 tablespoons soy sauce","3 tablespoons peanut butter", "1 1/2 tablespoons honey", "2 tablespoons hot chile paste (optional)", "3 cloves garlic (minced)", "8 ounces udon noodles", "1/4 cup choddped green onions", "1/4 cup chopped peanuts"
+                ],
+                "instructions": {
+                    "step 1": "Bring a large pot of water to a boil. Add noodles and cook until tender according to package directions. Drain.",
+                    "step 2": "Meanwhile, combine chicken broth, ginger, soy sauce, peanut butter, honey, chili paste, and garlic in a small saucepan. Cook over medium heat until peanut butter melts and is heated through. Add noodles, and toss to coat. Garnish with green onions and peanuts."
+                },
+                "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/noodles-laura-limsenkhe-unsplash",
+                "photo by": "Laura Limsenkhe",
+                "author link": "https://unsplash.com/@limsenkhe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            },
+            {
+                "recipe name" : "Philly Cheese Steak | Asian style",
+                "time": {
+                    "prep": "15 mins",
+                    "cook": "15 mins",
+                    "total": "30 mins"
+                },
+                "servings": "4",
+                "ingredients": [
+                    "1 pound fresh steak (rib-eye, round, or sirloin)", "1 large yellow onion (thinly sliced)", "3 tablespoons Kikkoman teriyaki marinade and sauce", "4 soft sandwhich rolls", "1 (8 floz) jar cheese spread"
+                ],
+                "instructions": {
+                    "step 1": "Add oil to a large non-stick skillet. Saute onions and 2 tablespoons of teriyaki sauce until the onions are soft. Add the sliced meat and cook until meat browns slightly, add remaining 1 tablespoon of teriyaki sauce and stir to combine. Place cheese on the meat and stir until melted, mixing meat, onions and cheese together. Scoop meat mixture onto sandwich rolls."
+                },
+                "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/sandwhich-the-nix-company-unsplash.jpg",
+                "photo by": "The Nix Company",
+                "author link": "https://unsplash.com/@thenixcompany?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
             }
-        }
-    ]
+        ],
+        "dinner": [
+            {
+                "recipe name" : "Okinawa Shoyu Pork",
+                "time": {
+                    "prep": "10 mins",
+                    "cook": "1 hr 30 mins",
+                    "total": "1 hr 40 mins"
+                },
+                "servings": "6",
+                "ingredients": [
+                    "1 1/2 pounds whole pork belly", "1/2 cup soy sauce", "1/2 cup packed brown sugar", "1/2 cup water", "1/2 cup mirin (Japanese sweet wine)", "2 teaspoons ground ginger", "1 clove garlic (or to taste)"
+                ],
+                "instructions": {
+                    "step 1": "Place pork belly into a large pot, and cover with water about 1-inch above the pork. Bring to a boil over medium-high heat, and simmer for 2 minutes. Discard water and fill pot with fresh water about 1-inch above the pork. Bring to a boil over medium-high heat, then reduce heat to a simmer. Cook until the pork begins to soften, about 1 hour.",
+                    "step 2": "Remove the pork from the water, and place on a cutting board. Allow pork to cool for a few minutes, then slice off the thick skin and discard. Cut the remaining pork meat into 1-inch wide slices. Set aside.",
+                    "step 3": "Combine the soy sauce, brown sugar, 1/2 cup water, mirin, ginger, and garlic in a large saucepan, and bring to a boil over high heat. Add the sliced pork belly, then bring to a boil again. Reduce heat to low, and place a sheet of aluminum foil directly over the meat and sauce. Simmer uncovered until the pork is tender, 30 to 45 minutes, turning the pork several times to cook evenly."
+                },
+                "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/okinawa-8-low-ural-unsplash.jpg",
+                "photo by": "8-Low Ural",
+                "author link": "https://unsplash.com/@ural_8_low?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            },
+            {
+                "recipe name" : "Air Fryer Apricot-Glazed Chicken Breasts",
+                "time": {
+                    "prep": "10 mins",
+                    "cook": "20 mins",
+                    "total": "30 mins"
+                },
+                "servings": "4",
+                "ingredients": [
+                    "3 tablespoons apricot preserves", "1 teaspoon fresh ginger paste", "1/2 teaspoon minced fresh rosemary", "2 (8 ounce) boneless, skinless chicken brests", "1 teaspoon vegetable oil", "salt and black pepper to taste"
+                ],
+                "instructions": {
+                    "step 1": "Stir apricot preserves, ginger paste, and rosemary together in a small bowl. Microwave for about 20 seconds to make preserves easier to spread.",
+                    "step 2": "Pound chicken breasts to uniform thickness and pat dry with a paper towel. Rub with oil and season with salt and pepper.",
+                    "step 3": "Preheat the air fryer to 400 degrees F (200 degrees C). Spray the basket with cooking spray and add chicken breasts in a single layer.",
+                    "step 4": "Air fry for 4 minutes. Flip and rotate the position of the chicken breasts. Brush with the apricot mixture. Return basket to the air fryer and cook until chicken is no longer pink in the center and the juices run clear, 8 to 12 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).",
+                    "step 5": "Transfer chicken to a plate, cover loosely with aluminum foil, and let sit for 5 minutes. Cut chicken breasts into slices and serve."
+                },
+                "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/chicken-akemy-mory-unsplash.jpg",
+                "photo by": "Akemy Mory",
+                "author link": "https://unsplash.com/@akemymory?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"  
+            },
+            {
+                "recipe name" : "Chinese Steamed Buns",
+                "time": {
+                    "prep": "30 mins",
+                    "cook": "45 mins",
+                    "total": "4 hrs 45 mins"
+                },
+                "servings": "24",
+                "ingredients": [
+                    "1 3/4 cups all-purpose flour (divided)", "3/4 cup warm water (divided)", "1 tablespoon active dry yeast", "1 tablespoon white sugar", "2 tablespoons white sugar", "1 tablespoon vegetable oil", "1/4 teaspoon salt", "1/2 teaspoon baking powder"
+                ],
+                "instructions": {
+                    "step 1": "Mix together 1/4 cup flour, 1/4 cup warm water, yeast, and 1 teaspoon sugar in a large bowl. Allow to sit for 30 minutes.",
+                    "step 2": "Mix in remaining 1 1/2 cups flour, remaining 1/2 cup warm water, 2 tablespoons sugar, vegetable oil, and salt. Knead until dough is smooth and elastic. Transfer to a greased bowl, roll to coat with oil, and let sit until tripled in size, 2 1/2 to 3 hours.",
+                    "step 3": "Punch down dough and spread out on a floured board. Sprinkle baking powder evenly on surface of dough; knead for 5 minutes.",
+                    "step 4": "Divide dough in half; set aside one half in a covered bowl. Divide remaining half into 12 equal pieces. Shape each into a ball; transfer each ball to a small square of waxed paper with the smooth surface facing up. Repeat portioning and shaping with remaining dough half. Cover all 24 dough balls and let sit until doubled in size, about 30 minutes.",
+                    "step 5": "Bring some water to a boil in a wok, then reduce heat to medium and keep water at a low boil. Place the steam plate on a small wire rack in the middle of the wok, leaving at least 2 inches of space between the plate and the wok. Working in batches, place buns on waxed paper squares onto the steam plate, leaving 1 to 2 inches between buns.",
+                    "step 6": "Cover and steam buns for 15 minutes. Carefully remove the lid, so condensation doesn't drip onto buns. Continue steaming remaining buns until all are cooked."
+                },
+                "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/buns-joan-tran-unsplash.jpg",
+                "photo by": "Joan Tran",
+                "author link": "https://unsplash.com/@joanofarts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            },
+            {
+                "recipe name" : "Air Fryer Hamburger Patties",
+                "time": {
+                    "prep": "5 mins",
+                    "cook": "10 mins",
+                    "total": "15 mins"
+                },
+                "servings": "2",
+                "ingredients": [
+                    "1/2 pound ground beef", "1 ounce grate white cheddar cheese", "1 tablespoon french-fried onions", "1 teaspoon dry ranch dressing mix", "1/2 teaspoon sazon seasoning", "salt and pepper to taste"
+                ],
+                "instructions": {
+                    "step 1": "Preheat an air fryer to 370 degrees F (188 degrees C).",
+                    "step 2": "Mix ground beef, Cheddar cheese, French-fried onions, ranch mix, sazon seasoning, salt, and pepper together in a medium bowl. Shape into two equal hamburger patties.",
+                    "step 3": "Air fry until internal thermometer is at least 160 degrees F (70 degrees C), about 6 minutes."
+                },
+                "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/hamburger-mike-unsplash.jpg",
+                "photo by": "Mike",
+                "author link": "https://unsplash.com/@omaha?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            },
+            {
+                "recipe name" : "Pizza",
+                "time": {
+                    "prep": "10 mins",
+                    "cook": "20 mins",
+                    "total": "30 mins"
+                },
+                "servings": "6",
+                "ingredients": [
+                    "1/2 (12 ounce) can CONTADINA® Tomato Paste", "1 teaspoon dried oregano, crushed", "1 teaspoon dried basil, crushed", "1/2 teaspoon garlic powder", "1/2 teaspoon onion powder", "1/2 teaspoon sugar", "1/2 teaspoon salt", "1/4 teaspoon black pepper", "3 1/4 cups all-purpose flour, or more as needed", "2 (.25 ounce) envelopes FLEISCHMANN'S® Pizza Crust Yeast or RapidRise® Yeast", "1 tablespoon sugar", "1 1/2 teaspoons salt", "1 1/3 cups very warm water (120 degrees F to 130 degrees F)", "1/3 cup oil", "1 (6 ounce) package HORMEL® Pepperoni", "1 cup shredded mozzarella cheese, or more to taste"
+                ],
+                "instructions": {
+                    "step 1": "For sauce: Combine all sauce ingredients with 1/2 cup water in a medium bowl; set aside for flavors to develop while making crust. Freeze remaining paste .",
+                    "step 2": "For crusts: Combine 2 cups of flour with the dry yeast, sugar and salt. Add the water and oil and mix until well blended (about 1 minute). Gradually add enough remaining flour slowly, until a soft, sticky dough ball is formed.",
+                    "step 3": "Knead for about 4 minutes, on a floured surface, until dough is smooth and elastic. Add more flour, if needed. (If using RapidRise® Yeast, let dough rest, covered, for 10 minutes.)",
+                    "step 4": "Divide dough in half. Pat each half (with floured hands) into a 12-inch greased pizza pan OR roll dough to fit pans.",
+                    "step 5": "For pizzas: Preheat oven to 425 degrees F. Top crusts with sauce, pepperoni and cheese.",
+                    "step 6": "Bake for 18 to 20 minutes until crusts are browned and cheese is bubbly. For best results, rotate pizza pans between top and bottom oven racks halfway through baking."
+                },
+                "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/pizza-saahil-khatkhate-unsplash.jpg",
+                "photo by": "Saahil Khatkhate",
+                "author link": "https://unsplash.com/@saahilkhatkhate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            }
+        ]
+    }
 }
+  
