@@ -1,0 +1,139 @@
+{
+    "recipes": [
+        {
+            "recipe name": "Cheddar and Herb Chaffle",
+            "time": {
+                "prep": "10 mins",
+                "cook": "5 mins",
+                "total": "30 mins"
+            },
+            "servings": "4",
+            "ingredients": [
+                "4 large eggs",
+                "2 cups mild cheddar (finely shredded)",
+                "2 scallions (thinly sliced)",
+                "1 tablespoon fresh parsley (finely chopped)",
+                "salt",
+                "black pepper",
+                "nonstick cooking spray",
+                "unsalted butter",
+                "maple syrup (original | sugar free)"
+            ],
+            "instructions": {
+                "step 1": "Preheat a waffle iron to medium-high. Whisk the eggs in a large bowl until well beaten and smooth. Whisk in the Cheddar, scallions, parsley, 1/4 teaspoon salt and a few grinds of pepper.",
+                "step 2": "Coat the waffle iron with nonstick cooking spray, then ladle a heaping 1/4 cup of batter into each section. Close the lid and cook until well browned and fluffy, 4 to 5 minutes. Use a small offset spatula or tongs to transfer the chaffles to a serving plate. Repeat with the remaining batter.",
+                "step 3": "Top each chaffle with a pat of butter and drizzle with maple syrup."
+            },
+            "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/waffle-mae-mu-unsplash.jpg",
+            "photo by": "Mae Mu",
+            "author link": "https://unsplash.com/@picoftasty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        },
+        {
+            "recipe name": "Muesli",
+            "time": {
+                "prep": "10 mins",
+                "cook": "0 mins",
+                "total": "8 hrs 10 mins"
+            },
+            "servings": "4",
+            "ingredients": [
+                "1/4 cup rolled oats",
+                "1/8 cup oat bran",
+                "1 tablespoon golden raisins",
+                "3 dried apricots (chopped)",
+                "1 pinch ground cinnamon",
+                "1/2 cup plain yogurt",
+                "1/4 cup milk (as needed)",
+                "1 teaspoon chopped walnuts"
+            ],
+            "instructions": {
+                "step 1": "In a medium bowl, mix together the oats, oat bran, raisins, apricots, and cinnamon. Stir in yogurt, cover, and refrigerate overnight.",
+                "step 2": "In the morning, pour the milk over the muesli, and sprinkle with walnuts. You may wish to add more milk depending on your preference."
+            },
+            "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/muesli-lex-sirikiat-unsplash.jpg",
+            "photo by": "Lex Sirikiat",
+            "author link": "https://unsplash.com/@pundalex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        },
+        {
+            "recipe name": "Carne Asada Breakfast Burrito",
+            "time": {
+                "prep": "15 mins",
+                "cook": "35 mins",
+                "total": "50 mins"
+            },
+            "servings": "4",
+            "ingredients": [
+                "2 pounds beef skirt steak, cut into thin strips",
+                "2 tablespoons carne asada seasoning",
+                "1 tablespoon garlic powder",
+                "1 tablespoon vegetable oil",
+                "1/2 sweet onion, diced",
+                "1 red bell pepper (seeded and chopped)",
+                "1 jalapeno pepper (seeded and diced)",
+                "1 (14.5 ounce) can Hunt's® Diced Tomatoes (drained)",
+                "2 cups frozen diced potatoes",
+                "salt and pepper to taste",
+                "3 tablespoons butter",
+                "6 eggs (divided, and whisked)",
+                "2 cups shredded Mexican cheese blend",
+                "4 (12 inch) flour tortillas"
+            ],
+            "instructions": {
+                "step 1": "Place beef slices in a mixing bowl. Sprinkle with asada seasoning and garlic powder; toss in bowl to evenly coat. Let marinade 5 minutes.",
+                "step 2": "Heat oil in a large, deep skillet over medium-high heat. Place beef strips in skillet and cook and stir until browned. Stir in bell pepper, onions, and jalapeno pepper. Add tomatoes and potatoes. Cook mixture until potatoes are tender, 5 to 8 minutes. Season with salt and pepper. Transfer mixture to a bowl.",
+                "step 3": "Melt 1 tablespoon butter in the same skillet. Add the eggs, stirring occasionally, until eggs are scrambled and set. Transfer the beef mixture back to skillet. Cook and stir until warmed through, about 2 minutes. Melt the remaining 2 tablespoons butter in a small dish in microwave.",
+                "step 4": "Divide shredded cheese among tortillas; divide beef and veggie mixture and place on the cheese. Fold in sides of tortilla and roll up. Brush with melted butter and place folded side down in pan to brown; flip and brown on top side. Burrito should be warmed though."
+            },
+            "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/burrito-creative-headline-unsplash.jpg",
+            "photo by": "Creative Headline",
+            "author link": "https://unsplash.com/@creativeheadline?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        },
+        {
+            "recipe name": "Peanut Butter Banana Smoothie",
+            "time": {
+                "prep": "5 mins",
+                "cook": "0 mins",
+                "total": "5 mins"
+            },
+            "servings": "4",
+            "ingredients": [
+                "2 bananas (cut up)",
+                "2 cups milk",
+                "1/2 cup peanut butter",
+                "2 tablespoons honey (or to taste)",
+                "2 cups ice cubes."
+            ],
+            "instructions": {
+                "step 1": "Place bananas, milk, peanut butter, honey, and ice cubes in a blender; blend until smooth, about 30 seconds."
+            },
+            "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/banana-louis-hansel-unsplash.jpg",
+            "photo by": "Louis Hansel",
+            "author link": "https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        },
+        {
+            "recipe name": "Basic Crepes",
+            "time": {
+                "prep": "10 mins",
+                "cook": "20 mins",
+                "total": "30 mins"
+            },
+            "servings": "4",
+            "ingredients": [
+                "1 cup all-purpose flour",
+                "2 eggs",
+                "1/2 cup milk",
+                "1/2 cup water",
+                "1/4 teaspoon salt",
+                "2 tablespoons butter (melted)"
+            ],
+            "instructions": {
+                "step 1": "In a large mixing bowl, whisk together the flour and the eggs. Gradually add in the milk and water, stirring to combine. Add the salt and butter; beat until smooth.",
+                "step 2": "Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each crepe. Tilt the pan with a circular motion so that the batter coats the surface evenly.",
+                "step 3": "Cook the crepe for about 2 minutes, until the bottom is light brown. Loosen with a spatula, turn and cook the other side. Serve hot."
+            },
+            "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/crepe-slashio-photography-unsplash",
+            "photo by": "Slashio Photography",
+            "author link": "https://unsplash.com/@slashiophotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        }
+    ]
+}

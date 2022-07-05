@@ -1,1 +1,24 @@
-@media screen and (max-width: 376px) {}
+@media screen and (max-width: 370) {
+    body{
+        display: grid;
+        grid-template-columns: repeat(6, 62px);   
+    }
+
+    nav {
+        grid-column: span 6;
+    }
+
+    .search {
+        grid-column: span 6;
+    }
+
+    .search h2 {
+        grid-column: span 6;
+    }
+
+    .categories {
+        grid-column: span 6;
+        display: flex;
+        row-gap: 40px;
+    }
+}

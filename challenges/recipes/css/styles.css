@@ -1,8 +1,37 @@
 :root {
-  --nav-bar-bg-clr: rgb(255, 255, 255);
-  --headers-text-clr: rgb(169,46,48);
-  --text-clr-1: rgb(255, 255, 255);
-  --text-clr-2: rgb(36, 34, 34);
+  /* index pg clrs */
+  --nav-bar-bg-clr: rgb(169, 46, 48);
+  --category-bg-clr: rgb(255, 255, 255);
+  --footer-bar-bg-clr: rgb(169, 46, 48);
+
+  /* text clrs */
+  --text-clr-1: rgb(169, 46, 48);
+  --text-clr-2: rgb(255, 255, 255);
+  --text-clr-3: rgb(36, 34, 34);
+
+  /* HEADER  h1*/
+  --desktop-h1-text: 48px;
+  --tablet-h1-text: 40px;
+  --smartphone-h1-text: 32px;
+
+  --desktop-h1-lineheight: 1.05em;
+  --tablet-h1-lineheight: 1.125em;
+  --smartphone-h1-lineheight: 1.25em;
+
+  /* BODY */
+  --desktop-body-text: 16px;
+  --tablet-body-text: 16px;
+  --smartphone-body-text: 16px;
+
+  --desktop-body-lineheight: 1.375em;
+  --tablet-body-lineheight: 1.375em;
+  --smartphone-body-lineheight: 1.25em;
+
+  /* 
+  FONT 
+  font-family:'Comfortaa', Arial, Tahoma;
+  */
+
 }
 
 * {
@@ -12,60 +41,36 @@
 
 body {
   background-image: url('../imgs/wallpaper.jpg');
-  background-repeat:repeat-y;
+  background-repeat: repeat-y;
   background-attachment: fixed;
   background-size: cover;
-
-  color: var(--text-clr);
   font-family: 'Comfortaa', Arial, Tahoma;
 }
 
-nav {
+nav, .copyright {
   background-color: var(--nav-bar-bg-clr);
-  color: var(--headers-text-clr);
-  padding: 15px;
-  font-size: 30px;
+  color: var(--text-clr-2);
 }
 
-main, footer {
-  padding: 15px;
+nav h1,
+.copyright p {
+  padding: 20px;
 }
 
-.search {
-  background-color: var(--nav-bar-bg-clr);
-  padding: 10px;
-  margin: 20px;
-  font-size: 20px;
-  text-align: center;
-}
-
-.search h2 {
-  color: var(--headers-text-clr);
-  padding: 10px;
-}
-
-.search input {
-  width: 75%;
-  height: 30px;
-  background-color: var(--headers-text-clr);
-  border-style: none;
-  padding: 10px;
-  color: var(--text-clr-1);
-  font-size: large;
-}
-
-.search input::placeholder {
-  color: var(--text-clr-1);
-  font-size: large;
-}
-
-ion-icon {
-  font-size: 35px;
-  color: var(--headers-text-clr);
+.breakfast,
+.lunch,
+.dinner,
+.dessert,
+.search,
+.delicioso {
+  background-color: var(--category-bg-clr);
+  padding: 20px;
+  margin: 10px;
 }
 
 
-/*img {
+
+img {
   width: 100%;
   height: auto;
-}*/
+}
