@@ -1,7 +1,8 @@
 @media screen and (max-width: 370) {
     body{
         display: grid;
-        grid-template-columns: repeat(6, 62px);   
+        grid-template-columns: repeat(6, 62px);
+        grid-template-rows: repeat(2, 1fr);
     }
 
     nav {
@@ -20,5 +21,14 @@
         grid-column: span 6;
         display: flex;
         row-gap: 40px;
+    }
+
+    .img {
+        grid-column: 1 / span 3;
+        grid-row: span 3;
+    }
+    
+    .text {
+        grid-column: 3 6;
     }
 }
