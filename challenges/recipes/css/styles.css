@@ -1,39 +1,34 @@
+/* PROJECT |COLORS | TEXT | SIZE|  */
 :root {
-  /* index pg clrs */
-  --nav-bar-bg-clr: rgb(169, 46, 48);
-  --category-bg-clr: rgb(255, 255, 255);
-  --footer-bar-bg-clr: rgb(169, 46, 48);
+  /* Background */
+  --bg-clr-01: rgb(255, 255, 255);
+  --bg-clr-02: rgb(169, 46, 48);
 
-  /* text clrs */
-  --text-clr-1: rgb(169, 46, 48);
-  --text-clr-2: rgb(255, 255, 255);
-  --text-clr-3: rgb(36, 34, 34);
+  /* Text */
+  --text-clr-01: rgb(255, 255, 255);
+  --text-clr-02: rgb(169, 46, 48);
+  --text-clr-03: rgb(0, 0, 0);
 
-  /* HEADER  h1*/
+  /* Header h1 */
   --desktop-h1-text: 48px;
   --tablet-h1-text: 40px;
-  --smartphone-h1-text: 32px;
+  --mobile-h1-text: 32px;
 
-  --desktop-h1-lineheight: 1.05em;
-  --tablet-h1-lineheight: 1.125em;
-  --smartphone-h1-lineheight: 1.25em;
-
-  /* BODY */
+  /* Body */
   --desktop-body-text: 16px;
   --tablet-body-text: 16px;
-  --smartphone-body-text: 16px;
+  --mobile-body-text: 16px;
 
-  --desktop-body-lineheight: 1.375em;
-  --tablet-body-lineheight: 1.375em;
-  --smartphone-body-lineheight: 1.25em;
-
-  /* 
-  FONT 
-  font-family:'Comfortaa', Arial, Tahoma;
-  */
-
+  /* Lineheight */
+  --desktop-h1-lh: 1.05em;
+  --desktop-body-lh: 1.375em;
+  --tablet-h1-lh: 1.125em;
+  --tablet-body-lh: 1.375em;
+  --mobile-h1-lh: 1.25em;
+  --mobile-body-lh: 1.25em;
 }
 
+/* ALL */
 * {
   margin: 0;
   padding: 0;
@@ -47,30 +42,92 @@ body {
   font-family: 'Comfortaa', Arial, Tahoma;
 }
 
-nav, .copyright {
-  background-color: var(--nav-bar-bg-clr);
-  color: var(--text-clr-2);
+img {
+  max-width: 100%;
+  height: auto;
 }
 
+.btn {
+  color:rgb(255, 255, 255);
+  width: 70px;
+  padding: 4px;
+  border-radius: 9px;
+  border: 2px solid var(--bg-clr-02);
+  background-color: var(--bg-clr-02);
+  text-align: center;
+}
+
+.btn:hover {
+  color: var(--text-clr-02);
+  width: 70px;
+  border: 2px solid var(--bg-clr-02);
+  background-color: var(--bg-clr-01);
+  padding: 4px;
+  border-radius: 9px;
+}
+
+.text {
+  padding: 20px;
+}
+
+/* DELICIOSO | SOCIAL MEDIA | FOOTER */
 nav h1,
 .copyright p {
   padding: 20px;
 }
 
+nav, .copyright {
+  background-color: var(--bg-clr-02);
+  color: var(--text-clr-01);
+}
+
+/* FIND A RECIPE SECTION */
+.search {
+  background-color: var(--bg-clr-01);
+  margin: 10px;
+  display: flex;
+  flex-flow: column;
+}
+
+.search h2 {
+  padding: 20px;
+  color: var(--text-clr-02);
+}
+
+.search-bar {
+  background-color: var(--bg-clr-02);
+  padding: 12px;
+}
+
+ion-icon {
+  color: var(--text-clr-01);
+  height: 25px;
+  width: 25px;
+}
+
+.search-bar input {
+  width: 75%;
+  height: 20px;
+  background-color: var(--bg-clr-02);
+  border: none;
+  color: var(--text-clr-01);
+}
+
+input::placeholder {
+  color: var(--text-clr-01);
+}
+
+/* RECIPES CATEGORY */
 .breakfast,
 .lunch,
 .dinner,
 .dessert,
-.search,
 .delicioso {
-  background-color: var(--category-bg-clr);
-  padding: 20px;
+  background-color: var(--bg-clr-01);
   margin: 10px;
 }
 
-
-
-img {
-  width: 100%;
-  height: auto;
-}
+/* BREAKFAST */
+/* LUNCH */
+/* DINNER */
+/* DESSERT */
