@@ -43,7 +43,8 @@ a {
 }
 
 a:hover {
-  opacity: .6;
+  background-color: var(--bg-clr-01);
+  border: var(--bg-clr-02);
 }
 
 /* Styles for the hero image */
@@ -59,6 +60,13 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   align-items: center;
+}
+
+.breakfast-hero {
+  background: url("https://images.unsplash.com/photo-1574484184081-afea8a62f9c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=981&q=80") center;
+
+  background-size: cover;
+  padding: 4rem 2rem;
 }
 
 .hero > * {
