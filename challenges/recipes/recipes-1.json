@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "recipe name": "Cheddar and Herb Chaffle",
+            "name": "Cheddar and Herb Chaffle",
             "time": {
                 "prep": "10 mins",
                 "cook": "5 mins",
@@ -25,11 +25,11 @@
                 "step 3": "Top each chaffle with a pat of butter and drizzle with maple syrup."
             },
             "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/waffle-mae-mu-unsplash.jpg",
-            "photo by": "Mae Mu",
-            "author link": "https://unsplash.com/@picoftasty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            "author": "Mae Mu",
+            "link": "https://unsplash.com/@picoftasty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
         {
-            "recipe name": "Muesli",
+            "name": "Muesli",
             "time": {
                 "prep": "10 mins",
                 "cook": "0 mins",
@@ -51,11 +51,11 @@
                 "step 2": "In the morning, pour the milk over the muesli, and sprinkle with walnuts. You may wish to add more milk depending on your preference."
             },
             "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/muesli-lex-sirikiat-unsplash.jpg",
-            "photo by": "Lex Sirikiat",
-            "author link": "https://unsplash.com/@pundalex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            "author": "Lex Sirikiat",
+            "link": "https://unsplash.com/@pundalex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
         {
-            "recipe name": "Carne Asada Burrito",
+            "name": "Carne Asada Burrito",
             "time": {
                 "prep": "15 mins",
                 "cook": "35 mins",
@@ -85,11 +85,11 @@
                 "step 4": "Divide shredded cheese among tortillas; divide beef and veggie mixture and place on the cheese. Fold in sides of tortilla and roll up. Brush with melted butter and place folded side down in pan to brown; flip and brown on top side. Burrito should be warmed though."
             },
             "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/burrito-creative-headline-unsplash.jpg",
-            "photo by": "Creative Headline",
-            "author link": "https://unsplash.com/@creativeheadline?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            "author": "Creative Headline",
+            "link": "https://unsplash.com/@creativeheadline?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
         {
-            "recipe name": "PB Banana Smoothie",
+            "name": "PB Banana Smoothie",
             "time": {
                 "prep": "5 mins",
                 "cook": "0 mins",
@@ -107,11 +107,11 @@
                 "step 1": "Place bananas, milk, peanut butter, honey, and ice cubes in a blender; blend until smooth, about 30 seconds."
             },
             "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/banana-louis-hansel-unsplash.jpg",
-            "photo by": "Louis Hansel",
-            "author link": "https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            "author": "Louis Hansel",
+            "link": "https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
         {
-            "recipe name": "Basic Crepes",
+            "name": "Basic Crepes",
             "time": {
                 "prep": "10 mins",
                 "cook": "20 mins",
@@ -132,8 +132,8 @@
                 "step 3": "Cook the crepe for about 2 minutes, until the bottom is light brown. Loosen with a spatula, turn and cook the other side. Serve hot."
             },
             "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/crepe-slashio-photography-unsplash",
-            "photo by": "Slashio Photography",
-            "author link": "https://unsplash.com/@slashiophotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            "author": "Slashio Photography",
+            "link": "https://unsplash.com/@slashiophotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         }
     ]
 }
