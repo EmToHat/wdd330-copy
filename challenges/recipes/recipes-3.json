@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "recipe name": "Okinawa Shoyu Pork",
+            "name": "Okinawa Shoyu Pork",
             "time": {
                 "prep": "10 mins",
                 "cook": "1 hr 30 mins",
@@ -17,17 +17,17 @@
                 "2 teaspoons ground ginger",
                 "1 clove garlic (or to taste)"
             ],
-            "instructions": {
-                "step 1": "Place pork belly into a large pot, and cover with water about 1-inch above the pork. Bring to a boil over medium-high heat, and simmer for 2 minutes. Discard water and fill pot with fresh water about 1-inch above the pork. Bring to a boil over medium-high heat, then reduce heat to a simmer. Cook until the pork begins to soften, about 1 hour.",
-                "step 2": "Remove the pork from the water, and place on a cutting board. Allow pork to cool for a few minutes, then slice off the thick skin and discard. Cut the remaining pork meat into 1-inch wide slices. Set aside.",
-                "step 3": "Combine the soy sauce, brown sugar, 1/2 cup water, mirin, ginger, and garlic in a large saucepan, and bring to a boil over high heat. Add the sliced pork belly, then bring to a boil again. Reduce heat to low, and place a sheet of aluminum foil directly over the meat and sauce. Simmer uncovered until the pork is tender, 30 to 45 minutes, turning the pork several times to cook evenly."
-            },
-            "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/okinawa-8-low-ural-unsplash.jpg",
-            "photo by": "8-Low Ural",
-            "author link": "https://unsplash.com/@ural_8_low?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            "instructions": [
+                "Place pork belly into a large pot, and cover with water about 1-inch above the pork. Bring to a boil over medium-high heat, and simmer for 2 minutes. Discard water and fill pot with fresh water about 1-inch above the pork. Bring to a boil over medium-high heat, then reduce heat to a simmer. Cook until the pork begins to soften, about 1 hour.",
+                "Remove the pork from the water, and place on a cutting board. Allow pork to cool for a few minutes, then slice off the thick skin and discard. Cut the remaining pork meat into 1-inch wide slices. Set aside.",
+                "Combine the soy sauce, brown sugar, 1/2 cup water, mirin, ginger, and garlic in a large saucepan, and bring to a boil over high heat. Add the sliced pork belly, then bring to a boil again. Reduce heat to low, and place a sheet of aluminum foil directly over the meat and sauce. Simmer uncovered until the pork is tender, 30 to 45 minutes, turning the pork several times to cook evenly."
+            ],
+            "imageurl": "./imgs/okinawa-8-low-ural-unsplash.jpg",
+            "author": "8-Low Ural",
+            "link": "https://unsplash.com/@ural_8_low?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
         {
-            "recipe name": "Air Fryer Apricot-Glazed Chicken Breasts",
+            "name": "Air Fryer Apricot-Glazed Chicken Breasts",
             "time": {
                 "prep": "10 mins",
                 "cook": "20 mins",
@@ -42,19 +42,19 @@
                 "1 teaspoon vegetable oil",
                 "salt and black pepper to taste"
             ],
-            "instructions": {
-                "step 1": "Stir apricot preserves, ginger paste, and rosemary together in a small bowl. Microwave for about 20 seconds to make preserves easier to spread.",
-                "step 2": "Pound chicken breasts to uniform thickness and pat dry with a paper towel. Rub with oil and season with salt and pepper.",
-                "step 3": "Preheat the air fryer to 400 degrees F (200 degrees C). Spray the basket with cooking spray and add chicken breasts in a single layer.",
-                "step 4": "Air fry for 4 minutes. Flip and rotate the position of the chicken breasts. Brush with the apricot mixture. Return basket to the air fryer and cook until chicken is no longer pink in the center and the juices run clear, 8 to 12 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).",
-                "step 5": "Transfer chicken to a plate, cover loosely with aluminum foil, and let sit for 5 minutes. Cut chicken breasts into slices and serve."
-            },
-            "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/chicken-akemy-mory-unsplash.jpg",
-            "photo by": "Akemy Mory",
-            "author link": "https://unsplash.com/@akemymory?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            "instructions": [
+                "Stir apricot preserves, ginger paste, and rosemary together in a small bowl. Microwave for about 20 seconds to make preserves easier to spread.",
+                "Pound chicken breasts to uniform thickness and pat dry with a paper towel. Rub with oil and season with salt and pepper.",
+                "Preheat the air fryer to 400 degrees F (200 degrees C). Spray the basket with cooking spray and add chicken breasts in a single layer.",
+                "Air fry for 4 minutes. Flip and rotate the position of the chicken breasts. Brush with the apricot mixture. Return basket to the air fryer and cook until chicken is no longer pink in the center and the juices run clear, 8 to 12 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C).",
+                "Transfer chicken to a plate, cover loosely with aluminum foil, and let sit for 5 minutes. Cut chicken breasts into slices and serve."
+            ],
+            "imageurl": "./imgs/chicken-akemy-mory-unsplash.jpg",
+            "author": "Akemy Mory",
+            "link": "https://unsplash.com/@akemymory?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
         {
-            "recipe name": "Chinese Steamed Buns",
+            "name": "Chinese Steamed Buns",
             "time": {
                 "prep": "30 mins",
                 "cook": "45 mins",
@@ -71,20 +71,20 @@
                 "1/4 teaspoon salt",
                 "1/2 teaspoon baking powder"
             ],
-            "instructions": {
-                "step 1": "Mix together 1/4 cup flour, 1/4 cup warm water, yeast, and 1 teaspoon sugar in a large bowl. Allow to sit for 30 minutes.",
-                "step 2": "Mix in remaining 1 1/2 cups flour, remaining 1/2 cup warm water, 2 tablespoons sugar, vegetable oil, and salt. Knead until dough is smooth and elastic. Transfer to a greased bowl, roll to coat with oil, and let sit until tripled in size, 2 1/2 to 3 hours.",
-                "step 3": "Punch down dough and spread out on a floured board. Sprinkle baking powder evenly on surface of dough; knead for 5 minutes.",
-                "step 4": "Divide dough in half; set aside one half in a covered bowl. Divide remaining half into 12 equal pieces. Shape each into a ball; transfer each ball to a small square of waxed paper with the smooth surface facing up. Repeat portioning and shaping with remaining dough half. Cover all 24 dough balls and let sit until doubled in size, about 30 minutes.",
-                "step 5": "Bring some water to a boil in a wok, then reduce heat to medium and keep water at a low boil. Place the steam plate on a small wire rack in the middle of the wok, leaving at least 2 inches of space between the plate and the wok. Working in batches, place buns on waxed paper squares onto the steam plate, leaving 1 to 2 inches between buns.",
-                "step 6": "Cover and steam buns for 15 minutes. Carefully remove the lid, so condensation doesn't drip onto buns. Continue steaming remaining buns until all are cooked."
-            },
-            "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/buns-joan-tran-unsplash.jpg",
-            "photo by": "Joan Tran",
-            "author link": "https://unsplash.com/@joanofarts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            "instructions": [
+                "Mix together 1/4 cup flour, 1/4 cup warm water, yeast, and 1 teaspoon sugar in a large bowl. Allow to sit for 30 minutes.",
+                "Mix in remaining 1 1/2 cups flour, remaining 1/2 cup warm water, 2 tablespoons sugar, vegetable oil, and salt. Knead until dough is smooth and elastic. Transfer to a greased bowl, roll to coat with oil, and let sit until tripled in size, 2 1/2 to 3 hours.",
+                "Punch down dough and spread out on a floured board. Sprinkle baking powder evenly on surface of dough; knead for 5 minutes.",
+                "Divide dough in half; set aside one half in a covered bowl. Divide remaining half into 12 equal pieces. Shape each into a ball; transfer each ball to a small square of waxed paper with the smooth surface facing up. Repeat portioning and shaping with remaining dough half. Cover all 24 dough balls and let sit until doubled in size, about 30 minutes.",
+                "Bring some water to a boil in a wok, then reduce heat to medium and keep water at a low boil. Place the steam plate on a small wire rack in the middle of the wok, leaving at least 2 inches of space between the plate and the wok. Working in batches, place buns on waxed paper squares onto the steam plate, leaving 1 to 2 inches between buns.",
+                "Cover and steam buns for 15 minutes. Carefully remove the lid, so condensation doesn't drip onto buns. Continue steaming remaining buns until all are cooked."
+            ],
+            "imageurl": "./imgs/buns-joan-tran-unsplash.jpg",
+            "author": "Joan Tran",
+            "link": "https://unsplash.com/@joanofarts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
         {
-            "recipe name": "Air Fryer Hamburger Patties",
+            "name": "Air Fryer Hamburger Patties",
             "time": {
                 "prep": "5 mins",
                 "cook": "10 mins",
@@ -99,17 +99,17 @@
                 "1/2 teaspoon sazon seasoning",
                 "salt and pepper to taste"
             ],
-            "instructions": {
-                "step 1": "Preheat an air fryer to 370 degrees F (188 degrees C).",
-                "step 2": "Mix ground beef, Cheddar cheese, French-fried onions, ranch mix, sazon seasoning, salt, and pepper together in a medium bowl. Shape into two equal hamburger patties.",
-                "step 3": "Air fry until internal thermometer is at least 160 degrees F (70 degrees C), about 6 minutes."
-            },
-            "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/hamburger-mike-unsplash.jpg",
-            "photo by": "Mike",
-            "author link": "https://unsplash.com/@omaha?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            "instructions": [
+                "Preheat an air fryer to 370 degrees F (188 degrees C).",
+                "Mix ground beef, Cheddar cheese, French-fried onions, ranch mix, sazon seasoning, salt, and pepper together in a medium bowl. Shape into two equal hamburger patties.",
+                "Air fry until internal thermometer is at least 160 degrees F (70 degrees C), about 6 minutes."
+            ],
+            "imageurl": "./imgs/hamburger-mike-unsplash.jpg",
+            "author": "Mike",
+            "link": "https://unsplash.com/@omaha?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
         {
-            "recipe name": "Pizza",
+            "name": "Pizza",
             "time": {
                 "prep": "10 mins",
                 "cook": "20 mins",
@@ -134,17 +134,17 @@
                 "1 (6 ounce) package HORMEL® Pepperoni",
                 "1 cup shredded mozzarella cheese, or more to taste"
             ],
-            "instructions": {
-                "step 1": "For sauce: Combine all sauce ingredients with 1/2 cup water in a medium bowl; set aside for flavors to develop while making crust. Freeze remaining paste .",
-                "step 2": "For crusts: Combine 2 cups of flour with the dry yeast, sugar and salt. Add the water and oil and mix until well blended (about 1 minute). Gradually add enough remaining flour slowly, until a soft, sticky dough ball is formed.",
-                "step 3": "Knead for about 4 minutes, on a floured surface, until dough is smooth and elastic. Add more flour, if needed. (If using RapidRise® Yeast, let dough rest, covered, for 10 minutes.)",
-                "step 4": "Divide dough in half. Pat each half (with floured hands) into a 12-inch greased pizza pan OR roll dough to fit pans.",
-                "step 5": "For pizzas: Preheat oven to 425 degrees F. Top crusts with sauce, pepperoni and cheese.",
-                "step 6": "Bake for 18 to 20 minutes until crusts are browned and cheese is bubbly. For best results, rotate pizza pans between top and bottom oven racks halfway through baking."
-            },
-            "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/pizza-saahil-khatkhate-unsplash.jpg",
-            "photo by": "Saahil Khatkhate",
-            "author link": "https://unsplash.com/@saahilkhatkhate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            "instructions": [
+                "For sauce: Combine all sauce ingredients with 1/2 cup water in a medium bowl; set aside for flavors to develop while making crust. Freeze remaining paste .",
+                "For crusts: Combine 2 cups of flour with the dry yeast, sugar and salt. Add the water and oil and mix until well blended (about 1 minute). Gradually add enough remaining flour slowly, until a soft, sticky dough ball is formed.",
+                "Knead for about 4 minutes, on a floured surface, until dough is smooth and elastic. Add more flour, if needed. (If using RapidRise® Yeast, let dough rest, covered, for 10 minutes.)",
+                "Divide dough in half. Pat each half (with floured hands) into a 12-inch greased pizza pan OR roll dough to fit pans.",
+                "For pizzas: Preheat oven to 425 degrees F. Top crusts with sauce, pepperoni and cheese.",
+                "Bake for 18 to 20 minutes until crusts are browned and cheese is bubbly. For best results, rotate pizza pans between top and bottom oven racks halfway through baking."
+            ],
+            "imageurl": "./imgs/pizza-saahil-khatkhate-unsplash.jpg",
+            "author": "Saahil Khatkhate",
+            "link": "https://unsplash.com/@saahilkhatkhate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         }
     ]
 }

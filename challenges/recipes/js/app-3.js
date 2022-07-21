@@ -1,8 +1,8 @@
-const breakfastRecipes = "./recipes-1.json";
+const dinnerRecipes = "./recipes-3.json";
 
-const bb_recipe_ul = document.querySelector("#breakfast-info-ul");
+const dd_recipe_ul = document.querySelector("#dinner-info-ul");
 
-fetch(breakfastRecipes)
+fetch(dinnerRecipes)
   .then((response) => response.json())
   .then(function (jsonObject) {
     console.table(jsonObject);
@@ -13,7 +13,7 @@ fetch(breakfastRecipes)
 function showRecipes(recipe) {
   //Elements
   // Element holds everything img | name | time | servings | ingredients
-  let bb_recipe_li = document.createElement("li");
+  let dd_recipe_li = document.createElement("li");
   
   // IMAGES
   let image_figure = document.createElement("figure");
@@ -44,9 +44,9 @@ function showRecipes(recipe) {
   image_figure.appendChild(recipeName);
 
   //Append the items to the container recipeBox
-  bb_recipe_li.appendChild(image_figure);
-  bb_recipe_li.appendChild(recipeInstructions);
+  dd_recipe_li.appendChild(image_figure);
+  dd_recipe_li.appendChild(recipeInstructions);
 
   //Append the recipeBox to the list recipeBoxes
-  bb_recipe_ul.appendChild(bb_recipe_li);
+  dd_recipe_ul.appendChild(dd_recipe_li);
 }

@@ -1,7 +1,7 @@
 {
     "recipes": [
         {
-            "recipe name": "Onigiri | Japanese Rice Balls ",
+            "name": "Onigiri | Japanese Rice Balls ",
             "time": {
                 "prep": "20 mins",
                 "cook": "30 mins",
@@ -17,17 +17,17 @@
                 "2 sheets nori (dry seaweed | cut into 1/2-inch strips",
                 "2 tablespoons sesame seeds"
             ],
-            "instructions": {
-                "step 1": "Wash the rice in a mesh strainer until the water runs clear. Combine washed rice and 4 1/2 cups water in a saucepan. Bring to a boil over high heat, stirring occasionally. Reduce heat to low; cover. Simmer rice until the water is absorbed, 15 to 20 minutes. Let rice rest, for 15 minutes to allow the rice to continue to steam and become tender. Allow cooked rice to cool.",
-                "step 2": "Combine 1 cup water with the salt in a small bowl. Use this water to dampen hands before handling the rice. Divide the cooked rice into 8 equal portions. Use one portion of rice for each onigiri.",
-                "step 3": "Divide one portion of rice in two. Create a dimple in the rice and fill with a heaping teaspoon of bonito flakes. Cover with the remaining portion of rice and press lightly to enclose filling inside rice ball. Gently press the rice to shape into a triangle. Wrap shaped onigiri with a strip of nori. Sprinkle with sesame seeds. Repeat to make a total of 8 onigiri."
-            },
-            "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/onigiri-max-griss-unsplash.jpg",
-            "photo by": "Max Griss",
-            "author link": "https://unsplash.com/@grisskitchen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            "instructions": [
+                "Wash the rice in a mesh strainer until the water runs clear. Combine washed rice and 4 1/2 cups water in a saucepan. Bring to a boil over high heat, stirring occasionally. Reduce heat to low; cover. Simmer rice until the water is absorbed, 15 to 20 minutes. Let rice rest, for 15 minutes to allow the rice to continue to steam and become tender. Allow cooked rice to cool.",
+                "Combine 1 cup water with the salt in a small bowl. Use this water to dampen hands before handling the rice. Divide the cooked rice into 8 equal portions. Use one portion of rice for each onigiri.",
+                "Divide one portion of rice in two. Create a dimple in the rice and fill with a heaping teaspoon of bonito flakes. Cover with the remaining portion of rice and press lightly to enclose filling inside rice ball. Gently press the rice to shape into a triangle. Wrap shaped onigiri with a strip of nori. Sprinkle with sesame seeds. Repeat to make a total of 8 onigiri."
+            ],
+            "imageurl": "./imgs/onigiri-max-griss-unsplash.jpg",
+            "author": "Max Griss",
+            "link": "https://unsplash.com/@grisskitchen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
         {
-            "recipe name": "Daniel's Tuna Salad",
+            "name": "Daniel's Tuna Salad",
             "time": {
                 "prep": "5 mins",
                 "cook": "0 mins",
@@ -41,17 +41,17 @@
                 "1 spoon onions (chopped, optional)",
                 "wheat thins"
             ],
-            "instructions": {
-                "step 1": "Rinse tuna so there isn't any oil.",
-                "step 2": "Stir tuna, mayo and olive garden dressing together, add onions if desired.",
-                "step 3": "Eat with wheat thins or other crackers and enjoy."
-            },
-            "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/tuna-christine-isakzhanova-unsplash.jpg",
-            "photo by": "Christine Isakzhanova",
-            "author link": "https://unsplash.com/@bulochka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            "instructions": [
+                "Rinse tuna so there isn't any oil.",
+                "Stir tuna, mayo and olive garden dressing together, add onions if desired.",
+                "Eat with wheat thins or other crackers and enjoy."
+            ],
+            "imageurl": "./imgs/tuna-christine-isakzhanova-unsplash.jpg",
+            "author": "Christine Isakzhanova",
+            "link": "https://unsplash.com/@bulochka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
         {
-            "recipe name": "Chicken Quesadillas",
+            "name": "Chicken Quesadillas",
             "time": {
                 "prep": "30 mins",
                 "cook": "25 mins",
@@ -70,21 +70,21 @@
                 "1 (8 ounce) package shredded monterey jack cheese",
                 "1 tablespoon bacon bits"
             ],
-            "instructions": {
-                "step 1": "Preheat the broiler. Grease a baking sheet.",
-                "step 2": "Toss chicken with fajita seasoning, then spread onto the baking sheet. Place under the broiler and cook until chicken is no longer pink in the center, about 5 minutes.",
-                "step 3": "Preheat the oven to 350 degrees F (175 degrees C).",
-                "step 4": "Heat oil in a large saucepan over medium heat. Stir in bell peppers, onion, and broiled chicken. Cook and stir until vegetables have softened, about 10 minutes.",
-                "step 5": "Layer half of each tortilla with chicken and vegetable mixture, Cheddar cheese, Monterey Jack cheese, and bacon bits. Fold tortillas in half and place onto a baking sheet.",
-                "step 6": "Bake quesadillas in the preheated oven until cheeses have melted, about 10 minutes.",
-                "step 7": "Cut each quesadilla into 4 wedges and serve."
-            },
-            "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/quesadillas-lottie-griffiths-unsplash.jpg",
-            "photo by": "Lottie Griffiths",
-            "author link": "https://unsplash.com/@lottiegriffiths?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            "instructions": [
+                "Preheat the broiler. Grease a baking sheet.",
+                "Toss chicken with fajita seasoning, then spread onto the baking sheet. Place under the broiler and cook until chicken is no longer pink in the center, about 5 minutes.",
+                "Preheat the oven to 350 degrees F (175 degrees C).",
+                "Heat oil in a large saucepan over medium heat. Stir in bell peppers, onion, and broiled chicken. Cook and stir until vegetables have softened, about 10 minutes.",
+                "Layer half of each tortilla with chicken and vegetable mixture, Cheddar cheese, Monterey Jack cheese, and bacon bits. Fold tortillas in half and place onto a baking sheet.",
+                "Bake quesadillas in the preheated oven until cheeses have melted, about 10 minutes.",
+                "Cut each quesadilla into 4 wedges and serve."
+            ],
+            "imageurl": "./imgs/quesadillas-lottie-griffiths-unsplash.jpg",
+            "author": "Lottie Griffiths",
+            "link": "https://unsplash.com/@lottiegriffiths?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
         {
-            "recipe name": "Peanut Butter Noodles",
+            "name": "Peanut Butter Noodles",
             "time": {
                 "prep": "15 mins",
                 "cook": "10 mins",
@@ -103,16 +103,16 @@
                 "1/4 cup choddped green onions",
                 "1/4 cup chopped peanuts"
             ],
-            "instructions": {
-                "step 1": "Bring a large pot of water to a boil. Add noodles and cook until tender according to package directions. Drain.",
-                "step 2": "Meanwhile, combine chicken broth, ginger, soy sauce, peanut butter, honey, chili paste, and garlic in a small saucepan. Cook over medium heat until peanut butter melts and is heated through. Add noodles, and toss to coat. Garnish with green onions and peanuts."
-            },
-            "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/noodles-laura-limsenkhe-unsplash",
-            "photo by": "Laura Limsenkhe",
-            "author link": "https://unsplash.com/@limsenkhe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            "instructions": [
+                "Bring a large pot of water to a boil. Add noodles and cook until tender according to package directions. Drain.",
+                "Meanwhile, combine chicken broth, ginger, soy sauce, peanut butter, honey, chili paste, and garlic in a small saucepan. Cook over medium heat until peanut butter melts and is heated through. Add noodles, and toss to coat. Garnish with green onions and peanuts."
+            ],
+            "imageurl": "./imgs/noodles-laura-limsenkhe-unsplash.jpg",
+            "author": "Laura Limsenkhe",
+            "link": "https://unsplash.com/@limsenkhe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
         {
-            "recipe name": "Philly Cheese Steak | Asian style",
+            "name": "Philly Cheese Steak | Asian style",
             "time": {
                 "prep": "15 mins",
                 "cook": "15 mins",
@@ -126,12 +126,12 @@
                 "4 soft sandwhich rolls",
                 "1 (8 floz) jar cheese spread"
             ],
-            "instructions": {
-                "step 1": "Add oil to a large non-stick skillet. Saute onions and 2 tablespoons of teriyaki sauce until the onions are soft. Add the sliced meat and cook until meat browns slightly, add remaining 1 tablespoon of teriyaki sauce and stir to combine. Place cheese on the meat and stir until melted, mixing meat, onions and cheese together. Scoop meat mixture onto sandwich rolls."
-            },
-            "imageurl": "https://github.com/emt0rres/wdd330/challenges/recipes/imgs/sandwhich-the-nix-company-unsplash.jpg",
-            "photo by": "The Nix Company",
-            "author link": "https://unsplash.com/@thenixcompany?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            "instructions": [
+                "Add oil to a large non-stick skillet. Saute onions and 2 tablespoons of teriyaki sauce until the onions are soft. Add the sliced meat and cook until meat browns slightly, add remaining 1 tablespoon of teriyaki sauce and stir to combine. Place cheese on the meat and stir until melted, mixing meat, onions and cheese together. Scoop meat mixture onto sandwich rolls."
+            ],
+            "imageurl": "./imgs/sandwhich-the-nix-company-unsplash.jpg",
+            "author": "The Nix Company",
+            "link": "https://unsplash.com/@thenixcompany?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         }
     ]
 }

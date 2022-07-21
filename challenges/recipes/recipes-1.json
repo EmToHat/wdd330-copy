@@ -19,12 +19,13 @@
                 "unsalted butter",
                 "maple syrup (original | sugar free)"
             ],
-            "instructions": {
-                "step 1": "Preheat a waffle iron to medium-high. Whisk the eggs in a large bowl until well beaten and smooth. Whisk in the Cheddar, scallions, parsley, 1/4 teaspoon salt and a few grinds of pepper.",
-                "step 2": "Coat the waffle iron with nonstick cooking spray, then ladle a heaping 1/4 cup of batter into each section. Close the lid and cook until well browned and fluffy, 4 to 5 minutes. Use a small offset spatula or tongs to transfer the chaffles to a serving plate. Repeat with the remaining batter.",
-                "step 3": "Top each chaffle with a pat of butter and drizzle with maple syrup."
-            },
-            "imageurl": "https://github.com/emt0rres/wdd330/blob/1d978bcfd63a8cc3997b457ba557dd4c8c40f373/challenges/recipes/imgs/waffle-mae-mu-unsplash.jpg",
+            "instructions": [
+                "Preheat a waffle iron to medium-high. Whisk the eggs in a large bowl until well beaten and smooth. Whisk in the Cheddar, scallions, parsley, 1/4 teaspoon salt and a few grinds of pepper.", 
+                "Coat the waffle iron with nonstick cooking spray, then ladle a heaping 1/4 cup of batter into each section. Close the lid and cook until well browned and fluffy, 4 to 5 minutes. Use a small offset spatula or tongs to transfer the chaffles to a serving plate. Repeat with the remaining batter.",
+                "Top each chaffle with a pat of butter and drizzle with maple syrup."
+                
+            ],
+            "imageurl": "./imgs/waffle-mae-mu-unsplash.jpg",
             "author": "Mae Mu",
             "link": "https://unsplash.com/@picoftasty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
@@ -46,11 +47,11 @@
                 "1/4 cup milk (as needed)",
                 "1 teaspoon chopped walnuts"
             ],
-            "instructions": {
-                "step 1": "In a medium bowl, mix together the oats, oat bran, raisins, apricots, and cinnamon. Stir in yogurt, cover, and refrigerate overnight.",
-                "step 2": "In the morning, pour the milk over the muesli, and sprinkle with walnuts. You may wish to add more milk depending on your preference."
-            },
-            "imageurl": "https://github.com/emt0rres/wdd330/blob/1d978bcfd63a8cc3997b457ba557dd4c8c40f373/challenges/recipes/imgs/muesli-lex-sirikiat-unsplash.jpg",
+            "instructions": [
+                "In a medium bowl, mix together the oats, oat bran, raisins, apricots, and cinnamon. Stir in yogurt, cover, and refrigerate overnight.",
+                "In the morning, pour the milk over the muesli, and sprinkle with walnuts. You may wish to add more milk depending on your preference."
+            ],
+            "imageurl": "./imgs/muesli-lex-sirikiat-unsplash.jpg",
             "author": "Lex Sirikiat",
             "link": "https://unsplash.com/@pundalex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
@@ -78,18 +79,18 @@
                 "2 cups shredded Mexican cheese blend",
                 "4 (12 inch) flour tortillas"
             ],
-            "instructions": {
-                "step 1": "Place beef slices in a mixing bowl. Sprinkle with asada seasoning and garlic powder; toss in bowl to evenly coat. Let marinade 5 minutes.",
-                "step 2": "Heat oil in a large, deep skillet over medium-high heat. Place beef strips in skillet and cook and stir until browned. Stir in bell pepper, onions, and jalapeno pepper. Add tomatoes and potatoes. Cook mixture until potatoes are tender, 5 to 8 minutes. Season with salt and pepper. Transfer mixture to a bowl.",
-                "step 3": "Melt 1 tablespoon butter in the same skillet. Add the eggs, stirring occasionally, until eggs are scrambled and set. Transfer the beef mixture back to skillet. Cook and stir until warmed through, about 2 minutes. Melt the remaining 2 tablespoons butter in a small dish in microwave.",
-                "step 4": "Divide shredded cheese among tortillas; divide beef and veggie mixture and place on the cheese. Fold in sides of tortilla and roll up. Brush with melted butter and place folded side down in pan to brown; flip and brown on top side. Burrito should be warmed though."
-            },
-            "imageurl": "https://github.com/emt0rres/wdd330/blob/1d978bcfd63a8cc3997b457ba557dd4c8c40f373/challenges/recipes/imgs/burrito-creative-headline-unsplash.jpg",
+            "instructions": [
+                "Place beef slices in a mixing bowl. Sprinkle with asada seasoning and garlic powder; toss in bowl to evenly coat. Let marinade 5 minutes.",
+                "Heat oil in a large, deep skillet over medium-high heat. Place beef strips in skillet and cook and stir until browned. Stir in bell pepper, onions, and jalapeno pepper. Add tomatoes and potatoes. Cook mixture until potatoes are tender, 5 to 8 minutes. Season with salt and pepper. Transfer mixture to a bowl.",
+                "Melt 1 tablespoon butter in the same skillet. Add the eggs, stirring occasionally, until eggs are scrambled and set. Transfer the beef mixture back to skillet. Cook and stir until warmed through, about 2 minutes. Melt the remaining 2 tablespoons butter in a small dish in microwave.",
+                "Divide shredded cheese among tortillas; divide beef and veggie mixture and place on the cheese. Fold in sides of tortilla and roll up. Brush with melted butter and place folded side down in pan to brown; flip and brown on top side. Burrito should be warmed though."
+            ],
+            "imageurl": "./imgs/burrito-creative-headline-unsplash.jpg",
             "author": "Creative Headline",
             "link": "https://unsplash.com/@creativeheadline?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
         {
-            "name": "PB Banana Smoothie",
+            "name": "Peanut Butter Banana Smoothie",
             "time": {
                 "prep": "5 mins",
                 "cook": "0 mins",
@@ -103,10 +104,10 @@
                 "2 tablespoons honey (or to taste)",
                 "2 cups ice cubes."
             ],
-            "instructions": {
-                "step 1": "Place bananas, milk, peanut butter, honey, and ice cubes in a blender; blend until smooth, about 30 seconds."
-            },
-            "imageurl": "https://github.com/emt0rres/wdd330/blob/1d978bcfd63a8cc3997b457ba557dd4c8c40f373/challenges/recipes/imgs/banana-louis-hansel-unsplash.jpg",
+            "instructions": [
+                "Place bananas, milk, peanut butter, honey, and ice cubes in a blender; blend until smooth, about 30 seconds."
+            ],
+            "imageurl": "./imgs/banana-louis-hansel-unsplash.jpg",
             "author": "Louis Hansel",
             "link": "https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         },
@@ -126,12 +127,12 @@
                 "1/4 teaspoon salt",
                 "2 tablespoons butter (melted)"
             ],
-            "instructions": {
-                "step 1": "In a large mixing bowl, whisk together the flour and the eggs. Gradually add in the milk and water, stirring to combine. Add the salt and butter; beat until smooth.",
-                "step 2": "Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each crepe. Tilt the pan with a circular motion so that the batter coats the surface evenly.",
-                "step 3": "Cook the crepe for about 2 minutes, until the bottom is light brown. Loosen with a spatula, turn and cook the other side. Serve hot."
-            },
-            "imageurl": "https://github.com/emt0rres/wdd330/blob/1d978bcfd63a8cc3997b457ba557dd4c8c40f373/challenges/recipes/imgs/crepe-slashio-photography-unsplash.jpg",
+            "instructions": [
+                "In a large mixing bowl, whisk together the flour and the eggs. Gradually add in the milk and water, stirring to combine. Add the salt and butter; beat until smooth.",
+                "Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each crepe. Tilt the pan with a circular motion so that the batter coats the surface evenly.",
+                "Cook the crepe for about 2 minutes, until the bottom is light brown. Loosen with a spatula, turn and cook the other side. Serve hot."
+            ],
+            "imageurl": "./imgs/crepe-slashio-photography-unsplash.jpg",
             "author": "Slashio Photography",
             "link": "https://unsplash.com/@slashiophotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         }

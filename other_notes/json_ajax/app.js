@@ -78,3 +78,49 @@ function renderHTML(data) {
 
   animalContainer.insertAdjacentHTML("beforeend", htmlString);
 }
+
+
+/*
+<figure>
+<!-- Photo by Eiliv-Sonas Aceron on Unsplash -->
+<img
+src="https://images.unsplash.com/photo-1594834749740-74b3f6764be4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=991&q=80"
+alt="Chicken Salad"
+/>
+<figcaption><h3>Lunch</h3></figcaption>
+</figure>
+<p>
+"Anyone who has lost track of time when using a computer knows the
+propensity to dream, the urge to make dreams come true and the
+tendency to miss lunch"
+<br />
+- Tim Berners-Lee
+</p>
+*/
+
+
+//.then((recipes) => showRecipes(recipes.results));
+
+/*
+showRecipes = (recipes) => {
+  const recipesDiv = document.querySelector("#breakfast-info");
+  recipes.forEach((recipe) => {
+    const createElements = document.createElement("div");
+
+    createElements.innerHTML =
+      `
+      <h3>${recipes.name}</h3> 
+      `;
+    
+      recipesDiv.append(createElements);
+  })
+};*/
+
+/*
+fetch("./recipes-1.json")
+.then(response => {
+  return response.json();
+})
+.then(data => {
+  document.querySelector("#breakfast-info").innerHTML = data.recipes.name;
+});*/
